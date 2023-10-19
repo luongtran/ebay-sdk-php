@@ -75,6 +75,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $PostalCode
  * @property boolean $ShippingTermsInDescription
  * @property \DTS\eBaySDK\Trading\Types\PictureDetailsType $PictureDetails
+ * @property \DTS\eBaySDK\Trading\Types\VideoDetailsType $VideoDetails
  * @property integer $DispatchTimeMax
  * @property \DTS\eBaySDK\Trading\Types\AddressType $SellerContactDetails
  * @property integer $TotalQuestionCount
@@ -522,6 +523,12 @@ class ItemType extends \DTS\eBaySDK\Types\BaseType
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PictureDetails'
+        ],
+        'VideoDetails' => [
+            'type' => 'DTS\eBaySDK\Trading\Types\VideoDetailsType',
+            'repeatable' => false,
+            'attribute' => false,
+            'elementName' => 'VideoDetails'
         ],
         'DispatchTimeMax' => [
             'type' => 'integer',
