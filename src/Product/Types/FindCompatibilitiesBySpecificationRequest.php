@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace LT\eBaySDK\Product\Types;
 
 /**
  *
  * @property string $categoryId
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $compatibilityPropertyFilter
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $specification
+ * @property \LT\eBaySDK\Product\Types\PropertyValue[] $compatibilityPropertyFilter
+ * @property \LT\eBaySDK\Product\Types\PropertyValue[] $specification
  * @property string[] $dataSet
  * @property string[] $datasetPropertyName
  * @property boolean $exactMatch
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\CompatibilitySort[] $sortOrder
+ * @property \LT\eBaySDK\Product\Types\PaginationInput $paginationInput
+ * @property \LT\eBaySDK\Product\Types\CompatibilitySort[] $sortOrder
  */
-class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class FindCompatibilitiesBySpecificationRequest extends \LT\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,13 +34,13 @@ class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Typ
             'elementName' => 'categoryId'
         ],
         'compatibilityPropertyFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'LT\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'compatibilityPropertyFilter'
         ],
         'specification' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'LT\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'specification'
@@ -64,13 +64,13 @@ class FindCompatibilitiesBySpecificationRequest extends \DTS\eBaySDK\Product\Typ
             'elementName' => 'exactMatch'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
+            'type' => 'LT\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'
         ],
         'sortOrder' => [
-            'type' => 'DTS\eBaySDK\Product\Types\CompatibilitySort',
+            'type' => 'LT\eBaySDK\Product\Types\CompatibilitySort',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sortOrder'

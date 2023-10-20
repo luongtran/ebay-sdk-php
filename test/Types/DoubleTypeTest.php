@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace LT\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Types\DoubleType;
+use LT\eBaySDK\Types\DoubleType;
 
 class DoubleTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class DoubleTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\DoubleType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\DoubleType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testHasValueProperty()

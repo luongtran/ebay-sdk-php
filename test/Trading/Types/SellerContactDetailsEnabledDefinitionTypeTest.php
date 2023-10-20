@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace LT\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType;
+use LT\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType;
 
 class SellerContactDetailsEnabledDefinitionTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellerContactDetailsEnabledDefinitionTypeTest extends \PHPUnit_Framework_T
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\SellerContactDetailsEnabledDefinitionType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

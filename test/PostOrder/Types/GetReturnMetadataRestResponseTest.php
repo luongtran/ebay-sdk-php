@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace LT\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse;
+use LT\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse;
 
 class GetReturnMetadataRestResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetReturnMetadataRestResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\GetReturnMetadataRestResponse', $this->obj);
     }
 
     public function testExtendsGetMetadataResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\GetMetadataResponse', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\GetMetadataResponse', $this->obj);
     }
 }

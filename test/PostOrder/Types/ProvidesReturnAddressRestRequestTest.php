@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace LT\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest;
+use LT\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest;
 
 class ProvidesReturnAddressRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProvidesReturnAddressRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\ProvidesReturnAddressRestRequest', $this->obj);
     }
 
     public function testExtendsReturnAddressRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\ReturnAddressRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\ReturnAddressRequest', $this->obj);
     }
 }

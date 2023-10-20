@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Taxonomy\Types;
+namespace LT\eBaySDK\Taxonomy\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Taxonomy\Types\Aspect[] $aspects
+ * @property \LT\eBaySDK\Taxonomy\Types\Aspect[] $aspects
  */
-class AspectMetadata extends \DTS\eBaySDK\Types\BaseType
+class AspectMetadata extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'aspects' => [
-            'type' => 'DTS\eBaySDK\Taxonomy\Types\Aspect',
+            'type' => 'LT\eBaySDK\Taxonomy\Types\Aspect',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspects'

@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class BasicAmountType extends \DTS\eBaySDK\Types\StringType
+class BasicAmountType extends \LT\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

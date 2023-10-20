@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ReturnManagement\Enums;
+namespace LT\eBaySDK\Test\ReturnManagement\Enums;
 
-use DTS\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType;
+use LT\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType;
 
 class CloseReturnReasonTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CloseReturnReasonTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\ReturnManagement\Enums\CloseReturnReasonType', $this->obj);
     }
 }

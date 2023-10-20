@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ProductMetadata\Types;
+namespace LT\eBaySDK\ProductMetadata\Types;
 
 /**
  *
  * @property string $value
  */
-class StringValue extends \DTS\eBaySDK\Types\BaseType
+class StringValue extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

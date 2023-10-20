@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ProgramName
- * @property \DTS\eBaySDK\Trading\Enums\SiteCodeType $Site
+ * @property \LT\eBaySDK\Trading\Enums\SiteCodeType $Site
  * @property \DateTime $ExpiryDate
  */
-class MembershipDetailType extends \DTS\eBaySDK\Types\BaseType
+class MembershipDetailType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

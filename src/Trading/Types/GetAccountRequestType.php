@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType $AccountHistorySelection
+ * @property \LT\eBaySDK\Trading\Enums\AccountHistorySelectionCodeType $AccountHistorySelection
  * @property \DateTime $InvoiceDate
  * @property \DateTime $BeginDate
  * @property \DateTime $EndDate
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \LT\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property boolean $ExcludeBalance
  * @property boolean $ExcludeSummary
  * @property boolean $IncludeConversionRate
- * @property \DTS\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType $AccountEntrySortType
- * @property \DTS\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
+ * @property \LT\eBaySDK\Trading\Enums\AccountEntrySortTypeCodeType $AccountEntrySortType
+ * @property \LT\eBaySDK\Trading\Enums\CurrencyCodeType $Currency
  * @property string $ItemID
  */
-class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetAccountRequestType extends \LT\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -55,7 +55,7 @@ class GetAccountRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTy
             'elementName' => 'EndDate'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'LT\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

@@ -8,33 +8,33 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $DisputeID
- * @property \DTS\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType $DisputeRecordType
- * @property \DTS\eBaySDK\Trading\Enums\DisputeStateCodeType $DisputeState
- * @property \DTS\eBaySDK\Trading\Enums\DisputeStatusCodeType $DisputeStatus
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $OtherPartyRole
+ * @property \LT\eBaySDK\Trading\Enums\DisputeRecordTypeCodeType $DisputeRecordType
+ * @property \LT\eBaySDK\Trading\Enums\DisputeStateCodeType $DisputeState
+ * @property \LT\eBaySDK\Trading\Enums\DisputeStatusCodeType $DisputeStatus
+ * @property \LT\eBaySDK\Trading\Enums\TradingRoleCodeType $OtherPartyRole
  * @property string $OtherPartyName
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $UserRole
+ * @property \LT\eBaySDK\Trading\Enums\TradingRoleCodeType $UserRole
  * @property string $BuyerUserID
  * @property string $SellerUserID
  * @property string $TransactionID
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Item
- * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
- * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
- * @property \DTS\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType $DisputeCreditEligibility
+ * @property \LT\eBaySDK\Trading\Types\ItemType $Item
+ * @property \LT\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
+ * @property \LT\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
+ * @property \LT\eBaySDK\Trading\Enums\DisputeCreditEligibilityCodeType $DisputeCreditEligibility
  * @property \DateTime $DisputeCreatedTime
  * @property \DateTime $DisputeModifiedTime
- * @property \DTS\eBaySDK\Trading\Types\DisputeResolutionType[] $DisputeResolution
- * @property \DTS\eBaySDK\Trading\Types\DisputeMessageType[] $DisputeMessage
+ * @property \LT\eBaySDK\Trading\Types\DisputeResolutionType[] $DisputeResolution
+ * @property \LT\eBaySDK\Trading\Types\DisputeMessageType[] $DisputeMessage
  * @property boolean $Escalation
  * @property boolean $PurchaseProtection
  * @property string $OrderLineItemID
  */
-class DisputeType extends \DTS\eBaySDK\Types\BaseType
+class DisputeType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -101,7 +101,7 @@ class DisputeType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'TransactionID'
         ],
         'Item' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Item'
@@ -137,13 +137,13 @@ class DisputeType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DisputeModifiedTime'
         ],
         'DisputeResolution' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeResolutionType',
+            'type' => 'LT\eBaySDK\Trading\Types\DisputeResolutionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DisputeResolution'
         ],
         'DisputeMessage' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\DisputeMessageType',
+            'type' => 'LT\eBaySDK\Trading\Types\DisputeMessageType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'DisputeMessage'

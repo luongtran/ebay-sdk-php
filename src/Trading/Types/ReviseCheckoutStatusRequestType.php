@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AmountPaid
- * @property \DTS\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
- * @property \DTS\eBaySDK\Trading\Enums\CompleteStatusCodeType $CheckoutStatus
+ * @property \LT\eBaySDK\Trading\Types\AmountType $AmountPaid
+ * @property \LT\eBaySDK\Trading\Enums\BuyerPaymentMethodCodeType $PaymentMethodUsed
+ * @property \LT\eBaySDK\Trading\Enums\CompleteStatusCodeType $CheckoutStatus
  * @property string $ShippingService
  * @property boolean $ShippingIncludedInTax
- * @property \DTS\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
- * @property \DTS\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
+ * @property \LT\eBaySDK\Trading\Enums\RCSPaymentStatusCodeType $PaymentStatus
+ * @property \LT\eBaySDK\Trading\Types\AmountType $AdjustmentAmount
  * @property string $BuyerID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $SalesTax
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingCost
+ * @property \LT\eBaySDK\Trading\Types\AmountType $SalesTax
+ * @property \LT\eBaySDK\Trading\Types\AmountType $ShippingCost
  * @property string $EncryptedID
- * @property \DTS\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
+ * @property \LT\eBaySDK\Trading\Types\ExternalTransactionType $ExternalTransaction
  * @property string $MultipleSellerPaymentID
- * @property \DTS\eBaySDK\Trading\Types\AmountType $CODCost
+ * @property \LT\eBaySDK\Trading\Types\AmountType $CODCost
  * @property string $OrderLineItemID
  */
-class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class ReviseCheckoutStatusRequestType extends \LT\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -56,7 +56,7 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'OrderID'
         ],
         'AmountPaid' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AmountPaid'
@@ -92,7 +92,7 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'PaymentStatus'
         ],
         'AdjustmentAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'AdjustmentAmount'
@@ -104,13 +104,13 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'BuyerID'
         ],
         'SalesTax' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SalesTax'
         ],
         'ShippingCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingCost'
@@ -122,7 +122,7 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'EncryptedID'
         ],
         'ExternalTransaction' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ExternalTransactionType',
+            'type' => 'LT\eBaySDK\Trading\Types\ExternalTransactionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ExternalTransaction'
@@ -134,7 +134,7 @@ class ReviseCheckoutStatusRequestType extends \DTS\eBaySDK\Trading\Types\Abstrac
             'elementName' => 'MultipleSellerPaymentID'
         ],
         'CODCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'CODCost'

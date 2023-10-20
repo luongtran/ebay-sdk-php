@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CustomListDetailType $customListDetail
+ * @property \LT\eBaySDK\PostOrder\Types\CustomListDetailType $customListDetail
  * @property boolean $forceDelete
- * @property \DTS\eBaySDK\PostOrder\Types\CustomListModificationType $operation
+ * @property \LT\eBaySDK\PostOrder\Types\CustomListModificationType $operation
  */
-class ModifyCustomListRequest extends \DTS\eBaySDK\Types\BaseType
+class ModifyCustomListRequest extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'customListDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListDetailType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\CustomListDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'customListDetail'
@@ -35,7 +35,7 @@ class ModifyCustomListRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'forceDelete'
         ],
         'operation' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CustomListModificationType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\CustomListModificationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'operation'

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace LT\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType;
+use LT\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType;
 
 class GeteBayOfficialTimeRequestTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GeteBayOfficialTimeRequestTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\GeteBayOfficialTimeRequestType', $this->obj);
     }
 
     public function testExtendsAbstractRequestType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\AbstractRequestType', $this->obj);
     }
 }

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace LT\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Enums\CurrencyCodeEnum $currency
+ * @property \LT\eBaySDK\Order\Enums\CurrencyCodeEnum $currency
  * @property string $value
  */
-class Amount extends \DTS\eBaySDK\Types\BaseType
+class Amount extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

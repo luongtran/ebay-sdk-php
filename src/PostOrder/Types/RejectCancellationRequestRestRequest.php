@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $cancelId
  */
-class RejectCancellationRequestRestRequest extends \DTS\eBaySDK\PostOrder\Types\RejectCancelRequest
+class RejectCancellationRequestRestRequest extends \LT\eBaySDK\PostOrder\Types\RejectCancelRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

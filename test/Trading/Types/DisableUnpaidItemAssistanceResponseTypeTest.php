@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace LT\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType;
+use LT\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType;
 
 class DisableUnpaidItemAssistanceResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DisableUnpaidItemAssistanceResponseTypeTest extends \PHPUnit_Framework_Tes
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\DisableUnpaidItemAssistanceResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

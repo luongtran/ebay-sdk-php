@@ -1,17 +1,17 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace LT\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Test\Mocks\AmountClass;
-use DTS\eBaySDK\Test\Mocks\SimpleClass;
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
-use DTS\eBaySDK\Test\Mocks\Base64BinaryType;
-use DTS\eBaySDK\Test\Mocks\BooleanType;
-use DTS\eBaySDK\Test\Mocks\DecimalType;
-use DTS\eBaySDK\Test\Mocks\DoubleType;
-use DTS\eBaySDK\Test\Mocks\IntegerType;
-use DTS\eBaySDK\Test\Mocks\StringType;
-use DTS\eBaySDK\Test\Mocks\TokenType;
-use DTS\eBaySDK\Test\Mocks\URIType;
+use LT\eBaySDK\Test\Mocks\AmountClass;
+use LT\eBaySDK\Test\Mocks\SimpleClass;
+use LT\eBaySDK\Test\Mocks\ComplexClass;
+use LT\eBaySDK\Test\Mocks\Base64BinaryType;
+use LT\eBaySDK\Test\Mocks\BooleanType;
+use LT\eBaySDK\Test\Mocks\DecimalType;
+use LT\eBaySDK\Test\Mocks\DoubleType;
+use LT\eBaySDK\Test\Mocks\IntegerType;
+use LT\eBaySDK\Test\Mocks\StringType;
+use LT\eBaySDK\Test\Mocks\TokenType;
+use LT\eBaySDK\Test\Mocks\URIType;
 
 class ToArrayTest extends \PHPUnit_Framework_TestCase
 {

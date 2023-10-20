@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BulkDataExchange\Types;
+namespace LT\eBaySDK\BulkDataExchange\Types;
 
 /**
  *
  * @property \DateTime $startTime
  */
-class FeeSettlementReportFilter extends \DTS\eBaySDK\Types\BaseType
+class FeeSettlementReportFilter extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

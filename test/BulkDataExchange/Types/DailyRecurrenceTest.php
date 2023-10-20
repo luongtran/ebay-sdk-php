@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BulkDataExchange\Types;
+namespace LT\eBaySDK\Test\BulkDataExchange\Types;
 
-use DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence;
+use LT\eBaySDK\BulkDataExchange\Types\DailyRecurrence;
 
 class DailyRecurrenceTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class DailyRecurrenceTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BulkDataExchange\Types\DailyRecurrence', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\BulkDataExchange\Types\DailyRecurrence', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

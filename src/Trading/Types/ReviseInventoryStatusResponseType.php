@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\InventoryStatusType[] $InventoryStatus
- * @property \DTS\eBaySDK\Trading\Types\InventoryFeesType[] $Fees
+ * @property \LT\eBaySDK\Trading\Types\InventoryStatusType[] $InventoryStatus
+ * @property \LT\eBaySDK\Trading\Types\InventoryFeesType[] $Fees
  */
-class ReviseInventoryStatusResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ReviseInventoryStatusResponseType extends \LT\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'InventoryStatus' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InventoryStatusType',
+            'type' => 'LT\eBaySDK\Trading\Types\InventoryStatusType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'InventoryStatus'
         ],
         'Fees' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\InventoryFeesType',
+            'type' => 'LT\eBaySDK\Trading\Types\InventoryFeesType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'Fees'

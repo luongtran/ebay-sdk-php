@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Metadata\Types;
+namespace LT\eBaySDK\Test\Metadata\Types;
 
-use DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions;
+use LT\eBaySDK\Metadata\Types\SalesTaxJurisdictions;
 
 class SalesTaxJurisdictionsTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SalesTaxJurisdictionsTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Metadata\Types\SalesTaxJurisdictions', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Metadata\Types\SalesTaxJurisdictions', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

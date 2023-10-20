@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace LT\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\PaymentInformationType $Payments
- * @property \DTS\eBaySDK\MerchantData\Types\RefundInformationType $Refunds
+ * @property \LT\eBaySDK\MerchantData\Types\PaymentInformationType $Payments
+ * @property \LT\eBaySDK\MerchantData\Types\RefundInformationType $Refunds
  */
-class PaymentsInformationType extends \DTS\eBaySDK\Types\BaseType
+class PaymentsInformationType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'Payments' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\PaymentInformationType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\PaymentInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Payments'
         ],
         'Refunds' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\RefundInformationType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\RefundInformationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Refunds'

@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace LT\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Region[] $regionExcluded
- * @property \DTS\eBaySDK\Account\Types\Region[] $regionIncluded
+ * @property \LT\eBaySDK\Account\Types\Region[] $regionExcluded
+ * @property \LT\eBaySDK\Account\Types\Region[] $regionIncluded
  */
-class RegionSet extends \DTS\eBaySDK\Types\BaseType
+class RegionSet extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'regionExcluded' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Region',
+            'type' => 'LT\eBaySDK\Account\Types\Region',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'regionExcluded'
         ],
         'regionIncluded' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Region',
+            'type' => 'LT\eBaySDK\Account\Types\Region',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'regionIncluded'

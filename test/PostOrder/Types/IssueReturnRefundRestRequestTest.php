@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace LT\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest;
+use LT\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest;
 
 class IssueReturnRefundRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class IssueReturnRefundRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\IssueReturnRefundRestRequest', $this->obj);
     }
 
     public function testExtendsIssueRefundRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\IssueRefundRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\IssueRefundRequest', $this->obj);
     }
 }

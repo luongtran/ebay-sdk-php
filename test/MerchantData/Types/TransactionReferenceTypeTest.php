@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Types;
+namespace LT\eBaySDK\Test\MerchantData\Types;
 
-use DTS\eBaySDK\MerchantData\Types\TransactionReferenceType;
+use LT\eBaySDK\MerchantData\Types\TransactionReferenceType;
 
 class TransactionReferenceTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class TransactionReferenceTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Types\TransactionReferenceType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\MerchantData\Types\TransactionReferenceType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\StringType', $this->obj);
     }
 }

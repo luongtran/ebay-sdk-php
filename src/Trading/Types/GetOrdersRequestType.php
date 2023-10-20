@@ -8,31 +8,31 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
+ * @property \LT\eBaySDK\Trading\Types\OrderIDArrayType $OrderIDArray
  * @property \DateTime $CreateTimeFrom
  * @property \DateTime $CreateTimeTo
- * @property \DTS\eBaySDK\Trading\Enums\TradingRoleCodeType $OrderRole
- * @property \DTS\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
- * @property \DTS\eBaySDK\Trading\Types\PaginationType $Pagination
+ * @property \LT\eBaySDK\Trading\Enums\TradingRoleCodeType $OrderRole
+ * @property \LT\eBaySDK\Trading\Enums\OrderStatusCodeType $OrderStatus
+ * @property \LT\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \LT\eBaySDK\Trading\Types\PaginationType $Pagination
  * @property \DateTime $ModTimeFrom
  * @property \DateTime $ModTimeTo
  * @property integer $NumberOfDays
  * @property boolean $IncludeFinalValueFee
- * @property \DTS\eBaySDK\Trading\Enums\SortOrderCodeType $SortingOrder
+ * @property \LT\eBaySDK\Trading\Enums\SortOrderCodeType $SortingOrder
  */
-class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetOrdersRequestType extends \LT\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'OrderIDArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\OrderIDArrayType',
+            'type' => 'LT\eBaySDK\Trading\Types\OrderIDArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'OrderIDArray'
@@ -68,7 +68,7 @@ class GetOrdersRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestTyp
             'elementName' => 'ListingType'
         ],
         'Pagination' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationType',
+            'type' => 'LT\eBaySDK\Trading\Types\PaginationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Pagination'

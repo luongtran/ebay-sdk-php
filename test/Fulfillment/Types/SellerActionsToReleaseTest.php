@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Fulfillment\Types;
+namespace LT\eBaySDK\Test\Fulfillment\Types;
 
-use DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease;
+use LT\eBaySDK\Fulfillment\Types\SellerActionsToRelease;
 
 class SellerActionsToReleaseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class SellerActionsToReleaseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\SellerActionsToRelease', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Fulfillment\Types\SellerActionsToRelease', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

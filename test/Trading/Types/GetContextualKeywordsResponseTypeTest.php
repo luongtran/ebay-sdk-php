@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace LT\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\GetContextualKeywordsResponseType;
+use LT\eBaySDK\Trading\Types\GetContextualKeywordsResponseType;
 
 class GetContextualKeywordsResponseTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GetContextualKeywordsResponseTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\GetContextualKeywordsResponseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\GetContextualKeywordsResponseType', $this->obj);
     }
 
     public function testExtendsAbstractResponseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\AbstractResponseType', $this->obj);
     }
 }

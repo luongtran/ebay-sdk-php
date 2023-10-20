@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace LT\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType;
+use LT\eBaySDK\Trading\Enums\AddressOwnerCodeType;
 
 class AddressOwnerCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class AddressOwnerCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\AddressOwnerCodeType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Enums\AddressOwnerCodeType', $this->obj);
     }
 }

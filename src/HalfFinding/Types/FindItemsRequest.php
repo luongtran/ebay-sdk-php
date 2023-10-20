@@ -8,41 +8,41 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\HalfFinding\Types;
+namespace LT\eBaySDK\HalfFinding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\HalfFinding\Types\ProductIDType $productID
- * @property \DTS\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
- * @property \DTS\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\HalfFinding\Types\SortByType $sortBy
+ * @property \LT\eBaySDK\HalfFinding\Types\ProductIDType $productID
+ * @property \LT\eBaySDK\HalfFinding\Types\PaginationInputType $paginationInput
+ * @property \LT\eBaySDK\HalfFinding\Types\ItemFilter[] $itemFilter
+ * @property \LT\eBaySDK\HalfFinding\Types\SortByType $sortBy
  */
-class FindItemsRequest extends \DTS\eBaySDK\HalfFinding\Types\BaseRequest
+class FindItemsRequest extends \LT\eBaySDK\HalfFinding\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productID' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ProductIDType',
+            'type' => 'LT\eBaySDK\HalfFinding\Types\ProductIDType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productID'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\PaginationInputType',
+            'type' => 'LT\eBaySDK\HalfFinding\Types\PaginationInputType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'
         ],
         'itemFilter' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\ItemFilter',
+            'type' => 'LT\eBaySDK\HalfFinding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFilter'
         ],
         'sortBy' => [
-            'type' => 'DTS\eBaySDK\HalfFinding\Types\SortByType',
+            'type' => 'LT\eBaySDK\HalfFinding\Types\SortByType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sortBy'

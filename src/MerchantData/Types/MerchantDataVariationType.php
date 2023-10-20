@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace LT\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $SKU
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $Price
+ * @property \LT\eBaySDK\MerchantData\Types\AmountType $Price
  * @property integer $Quantity
- * @property \DTS\eBaySDK\MerchantData\Types\NameValueListArrayType $VariationSpecifics
- * @property \DTS\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType $SellingStatus
+ * @property \LT\eBaySDK\MerchantData\Types\NameValueListArrayType $VariationSpecifics
+ * @property \LT\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType $SellingStatus
  */
-class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
+class MerchantDataVariationType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SKU'
         ],
         'Price' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Price'
@@ -43,13 +43,13 @@ class MerchantDataVariationType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'Quantity'
         ],
         'VariationSpecifics' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\NameValueListArrayType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\NameValueListArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VariationSpecifics'
         ],
         'SellingStatus' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\MerchantDataSellingStatusType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingStatus'

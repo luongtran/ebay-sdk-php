@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace LT\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $promotion_id
  */
-class UpdateItemPromotionRestRequest extends \DTS\eBaySDK\Marketing\Types\ItemPromotion
+class UpdateItemPromotionRestRequest extends \LT\eBaySDK\Marketing\Types\ItemPromotion
 {
     /**
      * @var array Properties belonging to objects of this class.

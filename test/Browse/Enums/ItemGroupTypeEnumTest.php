@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Enums;
+namespace LT\eBaySDK\Test\Browse\Enums;
 
-use DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum;
+use LT\eBaySDK\Browse\Enums\ItemGroupTypeEnum;
 
 class ItemGroupTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ItemGroupTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Enums\ItemGroupTypeEnum', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Browse\Enums\ItemGroupTypeEnum', $this->obj);
     }
 }

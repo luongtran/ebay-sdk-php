@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace LT\eBaySDK\Marketing\Types;
 
 /**
  *
  * @property string $bidPercentage
  */
-class UpdateBidPercentageRequest extends \DTS\eBaySDK\Types\BaseType
+class UpdateBidPercentageRequest extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace LT\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability;
+use LT\eBaySDK\Inventory\Types\ShipToLocationAvailability;
 
 class ShipToLocationAvailabilityTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ShipToLocationAvailabilityTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\ShipToLocationAvailability', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Inventory\Types\ShipToLocationAvailability', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

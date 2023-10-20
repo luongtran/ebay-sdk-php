@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Order\Types;
+namespace LT\eBaySDK\Order\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Order\Types\PaymentMethod[] $acceptedPaymentMethods
+ * @property \LT\eBaySDK\Order\Types\PaymentMethod[] $acceptedPaymentMethods
  * @property string $checkoutSessionId
  * @property string $expirationDate
- * @property \DTS\eBaySDK\Order\Types\LineItem[] $lineItems
- * @property \DTS\eBaySDK\Order\Types\PricingSummary $pricingSummary
- * @property \DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument $providedPaymentInstrument
- * @property \DTS\eBaySDK\Order\Types\ShippingAddress $shippingAddress
- * @property \DTS\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
+ * @property \LT\eBaySDK\Order\Types\LineItem[] $lineItems
+ * @property \LT\eBaySDK\Order\Types\PricingSummary $pricingSummary
+ * @property \LT\eBaySDK\Order\Types\ProvidedPaymentInstrument $providedPaymentInstrument
+ * @property \LT\eBaySDK\Order\Types\ShippingAddress $shippingAddress
+ * @property \LT\eBaySDK\Order\Types\ErrorDetailV3[] $warnings
  */
-class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
+class CheckoutSessionResponse extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'acceptedPaymentMethods' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PaymentMethod',
+            'type' => 'LT\eBaySDK\Order\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'acceptedPaymentMethods'
@@ -46,31 +46,31 @@ class CheckoutSessionResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'expirationDate'
         ],
         'lineItems' => [
-            'type' => 'DTS\eBaySDK\Order\Types\LineItem',
+            'type' => 'LT\eBaySDK\Order\Types\LineItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'lineItems'
         ],
         'pricingSummary' => [
-            'type' => 'DTS\eBaySDK\Order\Types\PricingSummary',
+            'type' => 'LT\eBaySDK\Order\Types\PricingSummary',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'pricingSummary'
         ],
         'providedPaymentInstrument' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ProvidedPaymentInstrument',
+            'type' => 'LT\eBaySDK\Order\Types\ProvidedPaymentInstrument',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'providedPaymentInstrument'
         ],
         'shippingAddress' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ShippingAddress',
+            'type' => 'LT\eBaySDK\Order\Types\ShippingAddress',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'shippingAddress'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Order\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\Order\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

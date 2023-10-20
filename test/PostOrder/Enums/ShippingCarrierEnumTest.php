@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Enums;
+namespace LT\eBaySDK\Test\PostOrder\Enums;
 
-use DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum;
+use LT\eBaySDK\PostOrder\Enums\ShippingCarrierEnum;
 
 class ShippingCarrierEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ShippingCarrierEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Enums\ShippingCarrierEnum', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Enums\ShippingCarrierEnum', $this->obj);
     }
 }

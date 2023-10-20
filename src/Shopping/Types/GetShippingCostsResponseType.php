@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace LT\eBaySDK\Shopping\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Shopping\Types\ShippingDetailsType $ShippingDetails
- * @property \DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType $ShippingCostSummary
- * @property \DTS\eBaySDK\Shopping\Types\PickUpInStoreDetailsType $PickUpInStoreDetails
+ * @property \LT\eBaySDK\Shopping\Types\ShippingDetailsType $ShippingDetails
+ * @property \LT\eBaySDK\Shopping\Types\ShippingCostSummaryType $ShippingCostSummary
+ * @property \LT\eBaySDK\Shopping\Types\PickUpInStoreDetailsType $PickUpInStoreDetails
  */
-class GetShippingCostsResponseType extends \DTS\eBaySDK\Shopping\Types\AbstractResponseType
+class GetShippingCostsResponseType extends \LT\eBaySDK\Shopping\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ShippingDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ShippingDetailsType',
+            'type' => 'LT\eBaySDK\Shopping\Types\ShippingDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingDetails'
         ],
         'ShippingCostSummary' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\ShippingCostSummaryType',
+            'type' => 'LT\eBaySDK\Shopping\Types\ShippingCostSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingCostSummary'
         ],
         'PickUpInStoreDetails' => [
-            'type' => 'DTS\eBaySDK\Shopping\Types\PickUpInStoreDetailsType',
+            'type' => 'LT\eBaySDK\Shopping\Types\PickUpInStoreDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PickUpInStoreDetails'

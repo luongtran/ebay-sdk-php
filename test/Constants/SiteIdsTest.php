@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Constants\Test;
+namespace LT\eBaySDK\Constants\Test;
 
-use DTS\eBaySDK\Constants\SiteIds as SiteIds;
+use LT\eBaySDK\Constants\SiteIds as SiteIds;
 
 class SiteIdsTest extends \PHPUnit_Framework_TestCase
 {

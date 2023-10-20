@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace LT\eBaySDK\Inventory\Types;
 
 /**
  *
  * @property double $height
  * @property double $length
- * @property \DTS\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum $unit
+ * @property \LT\eBaySDK\Inventory\Enums\LengthUnitOfMeasureEnum $unit
  * @property double $width
  */
-class Dimension extends \DTS\eBaySDK\Types\BaseType
+class Dimension extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

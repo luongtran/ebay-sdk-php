@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Types;
+namespace LT\eBaySDK\Test\ResolutionCaseManagement\Types;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType;
+use LT\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType;
 
 class OnHoldReasonDetailTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class OnHoldReasonDetailTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\ResolutionCaseManagement\Types\OnHoldReasonDetailType', $this->obj);
     }
 
     public function testExtendsEnumerationDetailType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\ResolutionCaseManagement\Types\EnumerationDetailType', $this->obj);
     }
 }

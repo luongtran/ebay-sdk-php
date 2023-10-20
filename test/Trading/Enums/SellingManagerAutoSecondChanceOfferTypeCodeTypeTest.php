@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace LT\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType;
+use LT\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType;
 
 class SellingManagerAutoSecondChanceOfferTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerAutoSecondChanceOfferTypeCodeTypeTest extends \PHPUnit_Frame
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType', $this->obj);
     }
 }

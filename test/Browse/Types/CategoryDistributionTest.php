@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Browse\Types;
+namespace LT\eBaySDK\Test\Browse\Types;
 
-use DTS\eBaySDK\Browse\Types\CategoryDistribution;
+use LT\eBaySDK\Browse\Types\CategoryDistribution;
 
 class CategoryDistributionTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class CategoryDistributionTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Browse\Types\CategoryDistribution', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Browse\Types\CategoryDistribution', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

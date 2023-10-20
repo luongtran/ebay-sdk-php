@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace LT\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\TransactionReferenceCodeType $type
+ * @property \LT\eBaySDK\MerchantData\Enums\TransactionReferenceCodeType $type
  */
-class TransactionReferenceType extends \DTS\eBaySDK\Types\StringType
+class TransactionReferenceType extends \LT\eBaySDK\Types\StringType
 {
     /**
      * @var array Properties belonging to objects of this class.

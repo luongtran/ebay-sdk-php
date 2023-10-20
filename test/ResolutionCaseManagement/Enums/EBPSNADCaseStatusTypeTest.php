@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Enums;
+namespace LT\eBaySDK\Test\ResolutionCaseManagement\Enums;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType;
+use LT\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType;
 
 class EBPSNADCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class EBPSNADCaseStatusTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\ResolutionCaseManagement\Enums\EBPSNADCaseStatusType', $this->obj);
     }
 }

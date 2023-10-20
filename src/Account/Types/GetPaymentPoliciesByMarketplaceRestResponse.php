@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace LT\eBaySDK\Account\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use LT\eBaySDK\StatusCodeTrait;
+use LT\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
+ * @property \LT\eBaySDK\Account\Types\ErrorDetailV3[] $errors
+ * @property \LT\eBaySDK\Account\Types\ErrorDetailV3[] $warnings
  */
-class GetPaymentPoliciesByMarketplaceRestResponse extends \DTS\eBaySDK\Account\Types\PaymentPolicyResponse
+class GetPaymentPoliciesByMarketplaceRestResponse extends \LT\eBaySDK\Account\Types\PaymentPolicyResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -28,13 +28,13 @@ class GetPaymentPoliciesByMarketplaceRestResponse extends \DTS\eBaySDK\Account\T
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Account\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\Account\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

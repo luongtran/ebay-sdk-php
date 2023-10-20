@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\Taxonomy\Services;
+namespace LT\eBaySDK\Test\Taxonomy\Services;
 
-use DTS\eBaySDK\Taxonomy\Services\TaxonomyBaseService;
-use DTS\eBaySDK\Taxonomy\Services\TaxonomyService;
-use DTS\eBaySDK\Test\Taxonomy\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use LT\eBaySDK\Taxonomy\Services\TaxonomyBaseService;
+use LT\eBaySDK\Taxonomy\Services\TaxonomyService;
+use LT\eBaySDK\Test\Taxonomy\Mocks\Service;
+use LT\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

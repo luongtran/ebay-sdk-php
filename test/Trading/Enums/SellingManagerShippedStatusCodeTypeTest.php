@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Enums;
+namespace LT\eBaySDK\Test\Trading\Enums;
 
-use DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType;
+use LT\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType;
 
 class SellingManagerShippedStatusCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class SellingManagerShippedStatusCodeTypeTest extends \PHPUnit_Framework_TestCas
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Enums\SellingManagerShippedStatusCodeType', $this->obj);
     }
 }

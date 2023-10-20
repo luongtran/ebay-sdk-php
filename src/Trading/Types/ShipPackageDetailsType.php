@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageDepth
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageLength
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $PackageWidth
+ * @property \LT\eBaySDK\Trading\Enums\MeasurementSystemCodeType $MeasurementUnit
+ * @property \LT\eBaySDK\Trading\Types\MeasureType $PackageDepth
+ * @property \LT\eBaySDK\Trading\Types\MeasureType $PackageLength
+ * @property \LT\eBaySDK\Trading\Types\MeasureType $PackageWidth
  * @property boolean $ShippingIrregular
- * @property \DTS\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMajor
- * @property \DTS\eBaySDK\Trading\Types\MeasureType $WeightMinor
+ * @property \LT\eBaySDK\Trading\Enums\ShippingPackageCodeType $ShippingPackage
+ * @property \LT\eBaySDK\Trading\Types\MeasureType $WeightMajor
+ * @property \LT\eBaySDK\Trading\Types\MeasureType $WeightMinor
  */
-class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ShipPackageDetailsType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -34,19 +34,19 @@ class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'MeasurementUnit'
         ],
         'PackageDepth' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
+            'type' => 'LT\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageDepth'
         ],
         'PackageLength' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
+            'type' => 'LT\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageLength'
         ],
         'PackageWidth' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
+            'type' => 'LT\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PackageWidth'
@@ -64,13 +64,13 @@ class ShipPackageDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShippingPackage'
         ],
         'WeightMajor' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
+            'type' => 'LT\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMajor'
         ],
         'WeightMinor' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MeasureType',
+            'type' => 'LT\eBaySDK\Trading\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightMinor'

@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\EligibilityErrorType $eligibilityError
+ * @property \LT\eBaySDK\PostOrder\Types\EligibilityErrorType $eligibilityError
  */
-class ReturnEligibilityErrorDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReturnEligibilityErrorDetailType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'eligibilityError' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\EligibilityErrorType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\EligibilityErrorType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'eligibilityError'

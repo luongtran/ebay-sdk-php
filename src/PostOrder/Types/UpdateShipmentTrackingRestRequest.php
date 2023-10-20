@@ -8,13 +8,13 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $returnId
  */
-class UpdateShipmentTrackingRestRequest extends \DTS\eBaySDK\PostOrder\Types\UpdateTrackingRequest
+class UpdateShipmentTrackingRestRequest extends \LT\eBaySDK\PostOrder\Types\UpdateTrackingRequest
 {
     /**
      * @var array Properties belonging to objects of this class.

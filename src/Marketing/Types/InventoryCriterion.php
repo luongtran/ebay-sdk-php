@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace LT\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Enums\InventoryCriterionEnum $inventoryCriterionType
- * @property \DTS\eBaySDK\Marketing\Types\InventoryItem[] $inventoryItems
+ * @property \LT\eBaySDK\Marketing\Enums\InventoryCriterionEnum $inventoryCriterionType
+ * @property \LT\eBaySDK\Marketing\Types\InventoryItem[] $inventoryItems
  * @property string[] $listingIds
- * @property \DTS\eBaySDK\Marketing\Types\RuleCriteria $ruleCriteria
+ * @property \LT\eBaySDK\Marketing\Types\RuleCriteria $ruleCriteria
  */
-class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
+class InventoryCriterion extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'inventoryCriterionType'
         ],
         'inventoryItems' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\InventoryItem',
+            'type' => 'LT\eBaySDK\Marketing\Types\InventoryItem',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'inventoryItems'
@@ -42,7 +42,7 @@ class InventoryCriterion extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'listingIds'
         ],
         'ruleCriteria' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\RuleCriteria',
+            'type' => 'LT\eBaySDK\Marketing\Types\RuleCriteria',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ruleCriteria'

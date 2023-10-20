@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test;
+namespace LT\eBaySDK\Test;
 
-use DTS\eBaySDK\Test\Mocks\StatusCode;
+use LT\eBaySDK\Test\Mocks\StatusCode;
 
 class StatusCodeTraitTest extends \PHPUnit_Framework_TestCase
 {

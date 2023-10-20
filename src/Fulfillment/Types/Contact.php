@@ -8,16 +8,16 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Fulfillment\Types;
+namespace LT\eBaySDK\Fulfillment\Types;
 
 /**
  *
  * @property string $companyName
- * @property \DTS\eBaySDK\Fulfillment\Types\Address $contactAddress
+ * @property \LT\eBaySDK\Fulfillment\Types\Address $contactAddress
  * @property string $fullName
- * @property \DTS\eBaySDK\Fulfillment\Types\PhoneNumber $primaryPhone
+ * @property \LT\eBaySDK\Fulfillment\Types\PhoneNumber $primaryPhone
  */
-class Contact extends \DTS\eBaySDK\Types\BaseType
+class Contact extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -30,7 +30,7 @@ class Contact extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'companyName'
         ],
         'contactAddress' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\Address',
+            'type' => 'LT\eBaySDK\Fulfillment\Types\Address',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'contactAddress'
@@ -42,7 +42,7 @@ class Contact extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'fullName'
         ],
         'primaryPhone' => [
-            'type' => 'DTS\eBaySDK\Fulfillment\Types\PhoneNumber',
+            'type' => 'LT\eBaySDK\Fulfillment\Types\PhoneNumber',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'primaryPhone'

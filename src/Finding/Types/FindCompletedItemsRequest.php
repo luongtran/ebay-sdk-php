@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace LT\eBaySDK\Finding\Types;
 
 /**
  *
  * @property string $keywords
  * @property string[] $categoryId
- * @property \DTS\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
- * @property \DTS\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
- * @property \DTS\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
- * @property \DTS\eBaySDK\Finding\Types\ProductId $productId
+ * @property \LT\eBaySDK\Finding\Types\ItemFilter[] $itemFilter
+ * @property \LT\eBaySDK\Finding\Types\AspectFilter[] $aspectFilter
+ * @property \LT\eBaySDK\Finding\Enums\OutputSelectorType[] $outputSelector
+ * @property \LT\eBaySDK\Finding\Types\ProductId $productId
  */
-class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceRequest
+class FindCompletedItemsRequest extends \LT\eBaySDK\Finding\Types\BaseFindingServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -38,13 +38,13 @@ class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
             'elementName' => 'categoryId'
         ],
         'itemFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ItemFilter',
+            'type' => 'LT\eBaySDK\Finding\Types\ItemFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemFilter'
         ],
         'aspectFilter' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectFilter',
+            'type' => 'LT\eBaySDK\Finding\Types\AspectFilter',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'aspectFilter'
@@ -56,7 +56,7 @@ class FindCompletedItemsRequest extends \DTS\eBaySDK\Finding\Types\BaseFindingSe
             'elementName' => 'outputSelector'
         ],
         'productId' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ProductId',
+            'type' => 'LT\eBaySDK\Finding\Types\ProductId',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productId'

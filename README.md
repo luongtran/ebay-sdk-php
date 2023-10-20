@@ -56,8 +56,8 @@ The SDK can be installed with [Composer](http://getcomposer.org/). Please see th
 
 require 'vendor/autoload.php';
 
-use \DTS\eBaySDK\Shopping\Services;
-use \DTS\eBaySDK\Shopping\Types;
+use \LT\eBaySDK\Shopping\Services;
+use \LT\eBaySDK\Shopping\Types;
 
 // Create the service object.
 $service = new Services\ShoppingService();

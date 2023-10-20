@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType $SecondChanceOfferCondition
- * @property \DTS\eBaySDK\Trading\Types\AmountType $Amount
+ * @property \LT\eBaySDK\Trading\Enums\SellingManagerAutoSecondChanceOfferTypeCodeType $SecondChanceOfferCondition
+ * @property \LT\eBaySDK\Trading\Types\AmountType $Amount
  * @property double $ProfitPercent
- * @property \DTS\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
+ * @property \LT\eBaySDK\Trading\Enums\SecondChanceOfferDurationCodeType $Duration
  * @property integer $ListingHoldInventoryLevel
  */
-class SellingManagerAutoSecondChanceOfferType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerAutoSecondChanceOfferType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class SellingManagerAutoSecondChanceOfferType extends \DTS\eBaySDK\Types\BaseTyp
             'elementName' => 'SecondChanceOfferCondition'
         ],
         'Amount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Amount'

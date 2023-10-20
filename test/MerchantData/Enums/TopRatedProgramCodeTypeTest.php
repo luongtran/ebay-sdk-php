@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace LT\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType;
+use LT\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType;
 
 class TopRatedProgramCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class TopRatedProgramCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\MerchantData\Enums\TopRatedProgramCodeType', $this->obj);
     }
 }

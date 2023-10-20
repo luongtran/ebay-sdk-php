@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace LT\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ItemFilterType $itemFilter
+ * @property \LT\eBaySDK\ReturnManagement\Types\ItemFilterType $itemFilter
  * @property string $orderId
- * @property \DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType $creationDateRangeFilter
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType $ReturnStatusFilter
- * @property \DTS\eBaySDK\ReturnManagement\Types\UserFilterType $otherUserFilter
- * @property \DTS\eBaySDK\ReturnManagement\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnSortType $sortType
- * @property \DTS\eBaySDK\ReturnManagement\Enums\ReturnSortOrderType $sortOrderType
+ * @property \LT\eBaySDK\ReturnManagement\Types\DateRangeFilterType $creationDateRangeFilter
+ * @property \LT\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType $ReturnStatusFilter
+ * @property \LT\eBaySDK\ReturnManagement\Types\UserFilterType $otherUserFilter
+ * @property \LT\eBaySDK\ReturnManagement\Types\PaginationInput $paginationInput
+ * @property \LT\eBaySDK\ReturnManagement\Enums\ReturnSortType $sortType
+ * @property \LT\eBaySDK\ReturnManagement\Enums\ReturnSortOrderType $sortOrderType
  */
-class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class GetUserReturnsRequest extends \LT\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ItemFilterType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ItemFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'itemFilter'
@@ -40,25 +40,25 @@ class GetUserReturnsRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequ
             'elementName' => 'orderId'
         ],
         'creationDateRangeFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\DateRangeFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'creationDateRangeFilter'
         ],
         'ReturnStatusFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ReturnStatusFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnStatusFilter'
         ],
         'otherUserFilter' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\UserFilterType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\UserFilterType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'otherUserFilter'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\PaginationInput',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'

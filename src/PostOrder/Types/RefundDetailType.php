@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ItemizedRefundDetailType[] $itemizedRefundDetail
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $totalAmount
+ * @property \LT\eBaySDK\PostOrder\Types\ItemizedRefundDetailType[] $itemizedRefundDetail
+ * @property \LT\eBaySDK\PostOrder\Types\Amount $totalAmount
  */
-class RefundDetailType extends \DTS\eBaySDK\Types\BaseType
+class RefundDetailType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemizedRefundDetail' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemizedRefundDetailType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\ItemizedRefundDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemizedRefundDetail'
         ],
         'totalAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'LT\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalAmount'

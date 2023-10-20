@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace LT\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\MigrateListing[] $requests
+ * @property \LT\eBaySDK\Inventory\Types\MigrateListing[] $requests
  */
-class BulkMigrateListing extends \DTS\eBaySDK\Types\BaseType
+class BulkMigrateListing extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\MigrateListing',
+            'type' => 'LT\eBaySDK\Inventory\Types\MigrateListing',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'requests'

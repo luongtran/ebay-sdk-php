@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType[] $carriers
+ * @property \LT\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType[] $carriers
  * @property string $returnShipmentPayer
  */
-class EstimatedShippingInfoType extends \DTS\eBaySDK\Types\BaseType
+class EstimatedShippingInfoType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'carriers' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\CarrierShippingCostInfoType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'carriers'

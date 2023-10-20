@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
- * @property \DTS\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
+ * @property \LT\eBaySDK\Trading\Enums\DisputeExplanationCodeType $DisputeExplanation
+ * @property \LT\eBaySDK\Trading\Enums\DisputeReasonCodeType $DisputeReason
  * @property string $ItemID
  * @property string $TransactionID
  * @property string $OrderLineItemID
  */
-class AddDisputeRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddDisputeRequestType extends \LT\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.

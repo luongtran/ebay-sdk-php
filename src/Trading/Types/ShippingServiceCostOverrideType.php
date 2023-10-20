@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $ShippingServicePriority
- * @property \DTS\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
+ * @property \LT\eBaySDK\Trading\Enums\ShippingServiceType $ShippingServiceType
+ * @property \LT\eBaySDK\Trading\Types\AmountType $ShippingServiceCost
+ * @property \LT\eBaySDK\Trading\Types\AmountType $ShippingServiceAdditionalCost
+ * @property \LT\eBaySDK\Trading\Types\AmountType $ShippingSurcharge
  */
-class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
+class ShippingServiceCostOverrideType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -37,19 +37,19 @@ class ShippingServiceCostOverrideType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ShippingServiceType'
         ],
         'ShippingServiceCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceCost'
         ],
         'ShippingServiceAdditionalCost' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingServiceAdditionalCost'
         ],
         'ShippingSurcharge' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ShippingSurcharge'

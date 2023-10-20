@@ -8,98 +8,98 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WatchList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BestOfferList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $WonList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $LostList
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSearches
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSellers
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $SecondChanceOffer
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromWonList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromLostList
- * @property \DTS\eBaySDK\Trading\Types\ItemListCustomizationType $BuyingSummary
- * @property \DTS\eBaySDK\Trading\Types\MyeBaySelectionType $UserDefinedLists
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $WatchList
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $BidList
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $BestOfferList
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $WonList
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $LostList
+ * @property \LT\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSearches
+ * @property \LT\eBaySDK\Trading\Types\MyeBaySelectionType $FavoriteSellers
+ * @property \LT\eBaySDK\Trading\Types\MyeBaySelectionType $SecondChanceOffer
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromWonList
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $DeletedFromLostList
+ * @property \LT\eBaySDK\Trading\Types\ItemListCustomizationType $BuyingSummary
+ * @property \LT\eBaySDK\Trading\Types\MyeBaySelectionType $UserDefinedLists
  * @property boolean $HideVariations
  */
-class GetMyeBayBuyingRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class GetMyeBayBuyingRequestType extends \LT\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'WatchList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WatchList'
         ],
         'BidList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BidList'
         ],
         'BestOfferList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BestOfferList'
         ],
         'WonList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WonList'
         ],
         'LostList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'LostList'
         ],
         'FavoriteSearches' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
+            'type' => 'LT\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSearches'
         ],
         'FavoriteSellers' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
+            'type' => 'LT\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'FavoriteSellers'
         ],
         'SecondChanceOffer' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
+            'type' => 'LT\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SecondChanceOffer'
         ],
         'DeletedFromWonList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromWonList'
         ],
         'DeletedFromLostList' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'DeletedFromLostList'
         ],
         'BuyingSummary' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemListCustomizationType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemListCustomizationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BuyingSummary'
         ],
         'UserDefinedLists' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\MyeBaySelectionType',
+            'type' => 'LT\eBaySDK\Trading\Types\MyeBaySelectionType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'UserDefinedLists'

@@ -8,24 +8,24 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Inventory\Types;
+namespace LT\eBaySDK\Inventory\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
+ * @property \LT\eBaySDK\Inventory\Types\ErrorDetailV3[] $errors
  * @property string $offerId
  * @property string $sku
  * @property integer $statusCode
- * @property \DTS\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
+ * @property \LT\eBaySDK\Inventory\Types\ErrorDetailV3[] $warnings
  */
-class PriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
+class PriceQuantityResponse extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'errors' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
@@ -49,7 +49,7 @@ class PriceQuantityResponse extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'statusCode'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\Inventory\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\Inventory\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Finding\Types;
+namespace LT\eBaySDK\Finding\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
- * @property \DTS\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
+ * @property \LT\eBaySDK\Finding\Types\CategoryHistogramContainer $categoryHistogramContainer
+ * @property \LT\eBaySDK\Finding\Types\AspectHistogramContainer $aspectHistogramContainer
+ * @property \LT\eBaySDK\Finding\Types\ConditionHistogramContainer $conditionHistogramContainer
  */
-class FindItemsByImageResponse extends \DTS\eBaySDK\Finding\Types\BaseFindingServiceResponse
+class FindItemsByImageResponse extends \LT\eBaySDK\Finding\Types\BaseFindingServiceResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'categoryHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\CategoryHistogramContainer',
+            'type' => 'LT\eBaySDK\Finding\Types\CategoryHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'categoryHistogramContainer'
         ],
         'aspectHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\AspectHistogramContainer',
+            'type' => 'LT\eBaySDK\Finding\Types\AspectHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'aspectHistogramContainer'
         ],
         'conditionHistogramContainer' => [
-            'type' => 'DTS\eBaySDK\Finding\Types\ConditionHistogramContainer',
+            'type' => 'LT\eBaySDK\Finding\Types\ConditionHistogramContainer',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'conditionHistogramContainer'

@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace LT\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Enums\DetailLevelCodeType[] $DetailLevel
+ * @property \LT\eBaySDK\MerchantData\Enums\DetailLevelCodeType[] $DetailLevel
  * @property string $ErrorLanguage
  * @property string $MessageID
  * @property string $Version
  * @property string $EndUserIP
- * @property \DTS\eBaySDK\MerchantData\Types\XMLRequesterCredentialsType $RequesterCredentials
- * @property \DTS\eBaySDK\MerchantData\Enums\ErrorHandlingCodeType $ErrorHandling
+ * @property \LT\eBaySDK\MerchantData\Types\XMLRequesterCredentialsType $RequesterCredentials
+ * @property \LT\eBaySDK\MerchantData\Enums\ErrorHandlingCodeType $ErrorHandling
  * @property string $InvocationID
  * @property string[] $OutputSelector
- * @property \DTS\eBaySDK\MerchantData\Enums\WarningLevelCodeType $WarningLevel
- * @property \DTS\eBaySDK\MerchantData\Types\BotBlockRequestType $BotBlock
+ * @property \LT\eBaySDK\MerchantData\Enums\WarningLevelCodeType $WarningLevel
+ * @property \LT\eBaySDK\MerchantData\Types\BotBlockRequestType $BotBlock
  */
-class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
+class AbstractRequestType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -61,7 +61,7 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'EndUserIP'
         ],
         'RequesterCredentials' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\XMLRequesterCredentialsType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\XMLRequesterCredentialsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'RequesterCredentials'
@@ -91,7 +91,7 @@ class AbstractRequestType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'WarningLevel'
         ],
         'BotBlock' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\BotBlockRequestType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\BotBlockRequestType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'BotBlock'

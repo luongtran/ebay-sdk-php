@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Merchandising\Enums;
+namespace LT\eBaySDK\Test\Merchandising\Enums;
 
-use DTS\eBaySDK\Merchandising\Enums\ItemFilterType;
+use LT\eBaySDK\Merchandising\Enums\ItemFilterType;
 
 class ItemFilterTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class ItemFilterTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Merchandising\Enums\ItemFilterType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Merchandising\Enums\ItemFilterType', $this->obj);
     }
 }

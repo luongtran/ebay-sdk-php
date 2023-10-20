@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace LT\eBaySDK\MerchantData\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailType[] $CharityAffiliationDetail
+ * @property \LT\eBaySDK\MerchantData\Types\CharityAffiliationDetailType[] $CharityAffiliationDetail
  */
-class CharityAffiliationDetailsType extends \DTS\eBaySDK\Types\BaseType
+class CharityAffiliationDetailsType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'CharityAffiliationDetail' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\CharityAffiliationDetailType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\CharityAffiliationDetailType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'CharityAffiliationDetail'

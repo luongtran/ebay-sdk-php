@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Types;
+namespace LT\eBaySDK\Compliance\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
- * @property \DTS\eBaySDK\Compliance\Enums\MarketplaceIdEnum $marketplaceId
+ * @property \LT\eBaySDK\Compliance\Enums\ComplianceTypeEnum $complianceType
+ * @property \LT\eBaySDK\Compliance\Enums\MarketplaceIdEnum $marketplaceId
  * @property integer $listingCount
  */
-class ComplianceSummaryInfo extends \DTS\eBaySDK\Types\BaseType
+class ComplianceSummaryInfo extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

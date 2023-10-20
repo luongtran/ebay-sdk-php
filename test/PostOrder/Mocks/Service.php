@@ -1,15 +1,15 @@
 <?php
-namespace DTS\eBaySDK\Test\PostOrder\Mocks;
+namespace LT\eBaySDK\Test\PostOrder\Mocks;
 
-use DTS\eBaySDK\Test\Mocks\ComplexClass;
+use LT\eBaySDK\Test\Mocks\ComplexClass;
 
-class Service extends \DTS\eBaySDK\PostOrder\Services\PostOrderBaseService
+class Service extends \LT\eBaySDK\PostOrder\Services\PostOrderBaseService
 {
     protected static $operations = [
         'testOperation' => [
             'method' => 'GET',
             'resource' => 'item/{item_id}',
-            'responseClass' => '\DTS\eBaySDK\Test\Mocks\ComplexClass',
+            'responseClass' => '\LT\eBaySDK\Test\Mocks\ComplexClass',
             'params' => [
             ]
         ]

@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Finding\Enums;
+namespace LT\eBaySDK\Test\Finding\Enums;
 
-use DTS\eBaySDK\Finding\Enums\OutputSelectorType;
+use LT\eBaySDK\Finding\Enums\OutputSelectorType;
 
 class OutputSelectorTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class OutputSelectorTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Finding\Enums\OutputSelectorType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Finding\Enums\OutputSelectorType', $this->obj);
     }
 }

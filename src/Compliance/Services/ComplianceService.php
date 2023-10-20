@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Compliance\Services;
+namespace LT\eBaySDK\Compliance\Services;
 
-class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseService
+class ComplianceService extends \LT\eBaySDK\Compliance\Services\ComplianceBaseService
 {
     const API_VERSION = 'v1';
 
@@ -21,7 +21,7 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
         'GetListingViolationsSummary' => [
             'method' => 'GET',
             'resource' => 'listing_violation_summary',
-            'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse',
+            'responseClass' => '\LT\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse',
             'params' => [
                 'compliance_type' => [
                     'valid' => ['string']
@@ -31,7 +31,7 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
         'GetListingViolations' => [
             'method' => 'GET',
             'resource' => 'listing_violation',
-            'responseClass' => '\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
+            'responseClass' => '\LT\eBaySDK\Compliance\Types\GetListingViolationsRestResponse',
             'params' => [
                 'limit' => [
                     'valid' => ['integer']
@@ -58,37 +58,37 @@ class ComplianceService extends \DTS\eBaySDK\Compliance\Services\ComplianceBaseS
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
-     * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse
+     * @param \LT\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
+     * @return \LT\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestResponse
      */
-    public function getListingViolationsSummary(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
+    public function getListingViolationsSummary(\LT\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
     {
         return $this->getListingViolationsSummaryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
+     * @param \LT\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getListingViolationsSummaryAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
+    public function getListingViolationsSummaryAsync(\LT\eBaySDK\Compliance\Types\GetListingViolationsSummaryRestRequest $request)
     {
         return $this->callOperationAsync('GetListingViolationsSummary', $request);
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
-     * @return \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestResponse
+     * @param \LT\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
+     * @return \LT\eBaySDK\Compliance\Types\GetListingViolationsRestResponse
      */
-    public function getListingViolations(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
+    public function getListingViolations(\LT\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
     {
         return $this->getListingViolationsAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
+     * @param \LT\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getListingViolationsAsync(\DTS\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
+    public function getListingViolationsAsync(\LT\eBaySDK\Compliance\Types\GetListingViolationsRestRequest $request)
     {
         return $this->callOperationAsync('GetListingViolations', $request);
     }

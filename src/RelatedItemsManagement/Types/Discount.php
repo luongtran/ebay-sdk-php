@@ -8,22 +8,22 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace LT\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\Amount $discountAmount
- * @property \DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum $discountType
+ * @property \LT\eBaySDK\RelatedItemsManagement\Types\Amount $discountAmount
+ * @property \LT\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum $discountType
  * @property double $discountPercent
  */
-class Discount extends \DTS\eBaySDK\Types\BaseType
+class Discount extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'discountAmount' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\Amount',
+            'type' => 'LT\eBaySDK\RelatedItemsManagement\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'discountAmount'

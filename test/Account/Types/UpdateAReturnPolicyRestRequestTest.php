@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Account\Types;
+namespace LT\eBaySDK\Test\Account\Types;
 
-use DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest;
+use LT\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest;
 
 class UpdateAReturnPolicyRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class UpdateAReturnPolicyRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Account\Types\UpdateAReturnPolicyRestRequest', $this->obj);
     }
 
     public function testExtendsReturnPolicyRequest()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Account\Types\ReturnPolicyRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Account\Types\ReturnPolicyRequest', $this->obj);
     }
 }

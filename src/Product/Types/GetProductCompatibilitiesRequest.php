@@ -8,38 +8,38 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace LT\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
- * @property \DTS\eBaySDK\Product\Types\PaginationInput $paginationInput
- * @property \DTS\eBaySDK\Product\Types\PropertyValue[] $applicationPropertyFilter
+ * @property \LT\eBaySDK\Product\Types\ProductIdentifier $productIdentifier
+ * @property \LT\eBaySDK\Product\Types\PaginationInput $paginationInput
+ * @property \LT\eBaySDK\Product\Types\PropertyValue[] $applicationPropertyFilter
  * @property string[] $dataset
- * @property \DTS\eBaySDK\Product\Types\CompatibilitySort[] $sortOrder
- * @property \DTS\eBaySDK\Product\Types\ProductStatus $disabledProductFilter
+ * @property \LT\eBaySDK\Product\Types\CompatibilitySort[] $sortOrder
+ * @property \LT\eBaySDK\Product\Types\ProductStatus $disabledProductFilter
  * @property string[] $datasetPropertyName
  */
-class GetProductCompatibilitiesRequest extends \DTS\eBaySDK\Product\Types\BaseServiceRequest
+class GetProductCompatibilitiesRequest extends \LT\eBaySDK\Product\Types\BaseServiceRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'productIdentifier' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductIdentifier',
+            'type' => 'LT\eBaySDK\Product\Types\ProductIdentifier',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'productIdentifier'
         ],
         'paginationInput' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PaginationInput',
+            'type' => 'LT\eBaySDK\Product\Types\PaginationInput',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'paginationInput'
         ],
         'applicationPropertyFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\PropertyValue',
+            'type' => 'LT\eBaySDK\Product\Types\PropertyValue',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'applicationPropertyFilter'
@@ -51,13 +51,13 @@ class GetProductCompatibilitiesRequest extends \DTS\eBaySDK\Product\Types\BaseSe
             'elementName' => 'dataset'
         ],
         'sortOrder' => [
-            'type' => 'DTS\eBaySDK\Product\Types\CompatibilitySort',
+            'type' => 'LT\eBaySDK\Product\Types\CompatibilitySort',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'sortOrder'
         ],
         'disabledProductFilter' => [
-            'type' => 'DTS\eBaySDK\Product\Types\ProductStatus',
+            'type' => 'LT\eBaySDK\Product\Types\ProductStatus',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'disabledProductFilter'

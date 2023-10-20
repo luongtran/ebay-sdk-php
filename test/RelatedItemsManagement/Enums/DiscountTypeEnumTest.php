@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\RelatedItemsManagement\Enums;
+namespace LT\eBaySDK\Test\RelatedItemsManagement\Enums;
 
-use DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum;
+use LT\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum;
 
 class DiscountTypeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class DiscountTypeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\RelatedItemsManagement\Enums\DiscountTypeEnum', $this->obj);
     }
 }

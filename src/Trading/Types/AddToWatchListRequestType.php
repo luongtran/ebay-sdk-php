@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string[] $ItemID
- * @property \DTS\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
+ * @property \LT\eBaySDK\Trading\Types\VariationKeyType[] $VariationKey
  */
-class AddToWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractRequestType
+class AddToWatchListRequestType extends \LT\eBaySDK\Trading\Types\AbstractRequestType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -28,7 +28,7 @@ class AddToWatchListRequestType extends \DTS\eBaySDK\Trading\Types\AbstractReque
             'elementName' => 'ItemID'
         ],
         'VariationKey' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationKeyType',
+            'type' => 'LT\eBaySDK\Trading\Types\VariationKeyType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'VariationKey'

@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property string $refundSource
  * @property string $refundStatus
  */
-class VoluntaryRefundResult extends \DTS\eBaySDK\Types\BaseType
+class VoluntaryRefundResult extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

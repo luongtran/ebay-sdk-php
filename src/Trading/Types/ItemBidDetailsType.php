@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
@@ -18,7 +18,7 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property string $SellerID
  * @property \DateTime $LastBidTime
  */
-class ItemBidDetailsType extends \DTS\eBaySDK\Types\BaseType
+class ItemBidDetailsType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

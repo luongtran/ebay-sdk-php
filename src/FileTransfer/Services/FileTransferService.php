@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\FileTransfer\Services;
+namespace LT\eBaySDK\FileTransfer\Services;
 
-class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransferBaseService
+class FileTransferService extends \LT\eBaySDK\FileTransfer\Services\FileTransferBaseService
 {
     const API_VERSION = '1.1.0';
 
@@ -23,46 +23,46 @@ class FileTransferService extends \DTS\eBaySDK\FileTransfer\Services\FileTransfe
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request
-     * @return \DTS\eBaySDK\FileTransfer\Types\UploadFileResponse
+     * @param \LT\eBaySDK\FileTransfer\Types\UploadFileRequest $request
+     * @return \LT\eBaySDK\FileTransfer\Types\UploadFileResponse
      */
-    public function uploadFile(\DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request)
+    public function uploadFile(\LT\eBaySDK\FileTransfer\Types\UploadFileRequest $request)
     {
         return $this->uploadFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request
+     * @param \LT\eBaySDK\FileTransfer\Types\UploadFileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function uploadFileAsync(\DTS\eBaySDK\FileTransfer\Types\UploadFileRequest $request)
+    public function uploadFileAsync(\LT\eBaySDK\FileTransfer\Types\UploadFileRequest $request)
     {
         return $this->callOperationAsync(
             'uploadFile',
             $request,
-            '\DTS\eBaySDK\FileTransfer\Types\UploadFileResponse'
+            '\LT\eBaySDK\FileTransfer\Types\UploadFileResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request
-     * @return \DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse
+     * @param \LT\eBaySDK\FileTransfer\Types\DownloadFileRequest $request
+     * @return \LT\eBaySDK\FileTransfer\Types\DownloadFileResponse
      */
-    public function downloadFile(\DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request)
+    public function downloadFile(\LT\eBaySDK\FileTransfer\Types\DownloadFileRequest $request)
     {
         return $this->downloadFileAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request
+     * @param \LT\eBaySDK\FileTransfer\Types\DownloadFileRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function downloadFileAsync(\DTS\eBaySDK\FileTransfer\Types\DownloadFileRequest $request)
+    public function downloadFileAsync(\LT\eBaySDK\FileTransfer\Types\DownloadFileRequest $request)
     {
         return $this->callOperationAsync(
             'downloadFile',
             $request,
-            '\DTS\eBaySDK\FileTransfer\Types\DownloadFileResponse'
+            '\LT\eBaySDK\FileTransfer\Types\DownloadFileResponse'
         );
     }
 }

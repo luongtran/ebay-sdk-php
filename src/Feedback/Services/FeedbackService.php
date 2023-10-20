@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Feedback\Services;
+namespace LT\eBaySDK\Feedback\Services;
 
-class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
+class FeedbackService extends \LT\eBaySDK\Feedback\Services\FeedbackBaseService
 {
     const API_VERSION = '1.2.2';
 
@@ -23,112 +23,112 @@ class FeedbackService extends \DTS\eBaySDK\Feedback\Services\FeedbackBaseService
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request
-     * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request
+     * @return \LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
-    public function createDSRSummaryByTransaction(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request)
+    public function createDSRSummaryByTransaction(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request)
     {
         return $this->createDSRSummaryByTransactionAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createDSRSummaryByTransactionAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request)
+    public function createDSRSummaryByTransactionAsync(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByTransactionRequest $request)
     {
         return $this->callOperationAsync(
             'createDSRSummaryByTransaction',
             $request,
-            '\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
+            '\LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request
-     * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request
+     * @return \LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
-    public function createDSRSummaryByPeriod(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request)
+    public function createDSRSummaryByPeriod(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request)
     {
         return $this->createDSRSummaryByPeriodAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createDSRSummaryByPeriodAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request)
+    public function createDSRSummaryByPeriodAsync(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByPeriodRequest $request)
     {
         return $this->callOperationAsync(
             'createDSRSummaryByPeriod',
             $request,
-            '\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
+            '\LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request
-     * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request
+     * @return \LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
-    public function createDSRSummaryByCategory(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request)
+    public function createDSRSummaryByCategory(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request)
     {
         return $this->createDSRSummaryByCategoryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createDSRSummaryByCategoryAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request)
+    public function createDSRSummaryByCategoryAsync(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByCategoryRequest $request)
     {
         return $this->callOperationAsync(
             'createDSRSummaryByCategory',
             $request,
-            '\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
+            '\LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request
-     * @return \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request
+     * @return \LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse
      */
-    public function createDSRSummaryByShippingDetail(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request)
+    public function createDSRSummaryByShippingDetail(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request)
     {
         return $this->createDSRSummaryByShippingDetailAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request
+     * @param \LT\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function createDSRSummaryByShippingDetailAsync(\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request)
+    public function createDSRSummaryByShippingDetailAsync(\LT\eBaySDK\Feedback\Types\CreateDSRSummaryByShippingDetailRequest $request)
     {
         return $this->callOperationAsync(
             'createDSRSummaryByShippingDetail',
             $request,
-            '\DTS\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
+            '\LT\eBaySDK\Feedback\Types\CreateDSRSummaryResponse'
         );
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request
-     * @return \DTS\eBaySDK\Feedback\Types\GetDSRSummaryResponse
+     * @param \LT\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request
+     * @return \LT\eBaySDK\Feedback\Types\GetDSRSummaryResponse
      */
-    public function getDSRSummary(\DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request)
+    public function getDSRSummary(\LT\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request)
     {
         return $this->getDSRSummaryAsync($request)->wait();
     }
 
     /**
-     * @param \DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request
+     * @param \LT\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
-    public function getDSRSummaryAsync(\DTS\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request)
+    public function getDSRSummaryAsync(\LT\eBaySDK\Feedback\Types\GetDSRSummaryRequest $request)
     {
         return $this->callOperationAsync(
             'getDSRSummary',
             $request,
-            '\DTS\eBaySDK\Feedback\Types\GetDSRSummaryResponse'
+            '\LT\eBaySDK\Feedback\Types\GetDSRSummaryResponse'
         );
     }
 }

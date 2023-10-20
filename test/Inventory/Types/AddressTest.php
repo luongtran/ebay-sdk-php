@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace LT\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\Address;
+use LT\eBaySDK\Inventory\Types\Address;
 
 class AddressTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AddressTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\Address', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Inventory\Types\Address', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

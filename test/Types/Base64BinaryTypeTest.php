@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace LT\eBaySDK\Types\Test;
 
-use DTS\eBaySDK\Types\Base64BinaryType;
+use LT\eBaySDK\Types\Base64BinaryType;
 
 class Base64BinaryTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -14,12 +14,12 @@ class Base64BinaryTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\Base64BinaryType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\Base64BinaryType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 
     public function testHasValueProperty()

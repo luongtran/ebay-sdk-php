@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Feed\Enums;
+namespace LT\eBaySDK\Test\Feed\Enums;
 
-use DTS\eBaySDK\Feed\Enums\CurrencyCodeEnum;
+use LT\eBaySDK\Feed\Enums\CurrencyCodeEnum;
 
 class CurrencyCodeEnumTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class CurrencyCodeEnumTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Feed\Enums\CurrencyCodeEnum', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Feed\Enums\CurrencyCodeEnum', $this->obj);
     }
 }

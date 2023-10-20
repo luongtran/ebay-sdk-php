@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Enums;
+namespace LT\eBaySDK\ReturnManagement\Enums;
 
 class ShipmentStatusType
 {

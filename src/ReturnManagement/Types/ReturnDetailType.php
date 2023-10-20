@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace LT\eBaySDK\ReturnManagement\Types;
 
 /**
  *
  * @property string $globalId
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType[] $returnHistory
- * @property \DTS\eBaySDK\ReturnManagement\Types\RefundInfoType $refundInfo
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType $returnPolicy
- * @property \DTS\eBaySDK\ReturnManagement\Types\ShipmentType $buyerReturnShipment
- * @property \DTS\eBaySDK\ReturnManagement\Types\ShipmentType[] $shipmentInfo
- * @property \DTS\eBaySDK\ReturnManagement\Types\CaseIdType $caseId
+ * @property \LT\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType[] $returnHistory
+ * @property \LT\eBaySDK\ReturnManagement\Types\RefundInfoType $refundInfo
+ * @property \LT\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType $returnPolicy
+ * @property \LT\eBaySDK\ReturnManagement\Types\ShipmentType $buyerReturnShipment
+ * @property \LT\eBaySDK\ReturnManagement\Types\ShipmentType[] $shipmentInfo
+ * @property \LT\eBaySDK\ReturnManagement\Types\CaseIdType $caseId
  */
-class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReturnDetailType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -33,37 +33,37 @@ class ReturnDetailType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'globalId'
         ],
         'returnHistory' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ReturnResponseHistoryType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'returnHistory'
         ],
         'refundInfo' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\RefundInfoType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\RefundInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'refundInfo'
         ],
         'returnPolicy' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ReturnPolicyInfoType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'returnPolicy'
         ],
         'buyerReturnShipment' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ShipmentType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'buyerReturnShipment'
         ],
         'shipmentInfo' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ShipmentType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ShipmentType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'shipmentInfo'
         ],
         'caseId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\CaseIdType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\CaseIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseId'

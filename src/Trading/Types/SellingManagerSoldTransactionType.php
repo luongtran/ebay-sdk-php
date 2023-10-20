@@ -8,7 +8,7 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
@@ -17,24 +17,24 @@ namespace DTS\eBaySDK\Trading\Types;
  * @property integer $SaleRecordID
  * @property string $ItemID
  * @property integer $QuantitySold
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ItemPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $SubtotalAmount
+ * @property \LT\eBaySDK\Trading\Types\AmountType $ItemPrice
+ * @property \LT\eBaySDK\Trading\Types\AmountType $SubtotalAmount
  * @property string $ItemTitle
- * @property \DTS\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
+ * @property \LT\eBaySDK\Trading\Enums\ListingTypeCodeType $ListingType
  * @property boolean $Relisted
  * @property integer $WatchCount
- * @property \DTS\eBaySDK\Trading\Types\AmountType $StartPrice
- * @property \DTS\eBaySDK\Trading\Types\AmountType $ReservePrice
+ * @property \LT\eBaySDK\Trading\Types\AmountType $StartPrice
+ * @property \LT\eBaySDK\Trading\Types\AmountType $ReservePrice
  * @property boolean $SecondChanceOfferSent
  * @property string $CustomLabel
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType $SoldOn
- * @property \DTS\eBaySDK\Trading\Enums\TransactionPlatformCodeType[] $ListedOn
- * @property \DTS\eBaySDK\Trading\Types\ShipmentType $Shipment
+ * @property \LT\eBaySDK\Trading\Enums\TransactionPlatformCodeType $SoldOn
+ * @property \LT\eBaySDK\Trading\Enums\TransactionPlatformCodeType[] $ListedOn
+ * @property \LT\eBaySDK\Trading\Types\ShipmentType $Shipment
  * @property boolean $CharityListing
- * @property \DTS\eBaySDK\Trading\Types\VariationType $Variation
+ * @property \LT\eBaySDK\Trading\Types\VariationType $Variation
  * @property string $OrderLineItemID
  */
-class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerSoldTransactionType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -71,13 +71,13 @@ class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'QuantitySold'
         ],
         'ItemPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ItemPrice'
         ],
         'SubtotalAmount' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SubtotalAmount'
@@ -107,13 +107,13 @@ class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'WatchCount'
         ],
         'StartPrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'StartPrice'
         ],
         'ReservePrice' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\AmountType',
+            'type' => 'LT\eBaySDK\Trading\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReservePrice'
@@ -143,7 +143,7 @@ class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'ListedOn'
         ],
         'Shipment' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ShipmentType',
+            'type' => 'LT\eBaySDK\Trading\Types\ShipmentType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Shipment'
@@ -155,7 +155,7 @@ class SellingManagerSoldTransactionType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'CharityListing'
         ],
         'Variation' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VariationType',
+            'type' => 'LT\eBaySDK\Trading\Types\VariationType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Variation'

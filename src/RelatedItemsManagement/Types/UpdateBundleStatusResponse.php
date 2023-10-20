@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\RelatedItemsManagement\Types;
+namespace LT\eBaySDK\RelatedItemsManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus[] $bundleStatus
+ * @property \LT\eBaySDK\RelatedItemsManagement\Types\BundleStatus[] $bundleStatus
  */
-class UpdateBundleStatusResponse extends \DTS\eBaySDK\RelatedItemsManagement\Types\BaseResponse
+class UpdateBundleStatusResponse extends \LT\eBaySDK\RelatedItemsManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'bundleStatus' => [
-            'type' => 'DTS\eBaySDK\RelatedItemsManagement\Types\BundleStatus',
+            'type' => 'LT\eBaySDK\RelatedItemsManagement\Types\BundleStatus',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'bundleStatus'

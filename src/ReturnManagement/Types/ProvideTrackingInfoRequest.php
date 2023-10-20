@@ -8,23 +8,23 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ReturnManagement\Types;
+namespace LT\eBaySDK\ReturnManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
+ * @property \LT\eBaySDK\ReturnManagement\Types\ReturnIdType $ReturnId
  * @property string $trackingNumber
  * @property string $carrierUsed
  * @property string $comments
  */
-class ProvideTrackingInfoRequest extends \DTS\eBaySDK\ReturnManagement\Types\BaseRequest
+class ProvideTrackingInfoRequest extends \LT\eBaySDK\ReturnManagement\Types\BaseRequest
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnId' => [
-            'type' => 'DTS\eBaySDK\ReturnManagement\Types\ReturnIdType',
+            'type' => 'LT\eBaySDK\ReturnManagement\Types\ReturnIdType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'ReturnId'

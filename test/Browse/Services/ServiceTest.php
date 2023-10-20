@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\Browse\Services;
+namespace LT\eBaySDK\Test\Browse\Services;
 
-use DTS\eBaySDK\Browse\Services\BrowseBaseService;
-use DTS\eBaySDK\Browse\Services\BrowseService;
-use DTS\eBaySDK\Test\Browse\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpRestHandler;
+use LT\eBaySDK\Browse\Services\BrowseBaseService;
+use LT\eBaySDK\Browse\Services\BrowseService;
+use LT\eBaySDK\Test\Browse\Mocks\Service;
+use LT\eBaySDK\Test\Mocks\HttpRestHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

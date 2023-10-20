@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Trading\Types;
+namespace LT\eBaySDK\Test\Trading\Types;
 
-use DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType;
+use LT\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType;
 
 class PromotionalShippingDiscountDetailsTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PromotionalShippingDiscountDetailsTypeTest extends \PHPUnit_Framework_Test
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Trading\Types\PromotionalShippingDiscountDetailsType', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

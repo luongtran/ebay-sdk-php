@@ -8,18 +8,18 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
-use DTS\eBaySDK\StatusCodeTrait;
-use DTS\eBaySDK\HttpHeadersTrait;
+use LT\eBaySDK\StatusCodeTrait;
+use LT\eBaySDK\HttpHeadersTrait;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\Error[] $error
- * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $errors
- * @property \DTS\eBaySDK\PostOrder\Types\ErrorDetailV3[] $warnings
+ * @property \LT\eBaySDK\PostOrder\Types\Error[] $error
+ * @property \LT\eBaySDK\PostOrder\Types\ErrorDetailV3[] $errors
+ * @property \LT\eBaySDK\PostOrder\Types\ErrorDetailV3[] $warnings
  */
-class ProcessReturnRequestRestResponse extends \DTS\eBaySDK\PostOrder\Types\DecideReturnResponse
+class ProcessReturnRequestRestResponse extends \LT\eBaySDK\PostOrder\Types\DecideReturnResponse
 {
     use StatusCodeTrait;
     use HttpHeadersTrait;
@@ -29,19 +29,19 @@ class ProcessReturnRequestRestResponse extends \DTS\eBaySDK\PostOrder\Types\Deci
      */
     private static $propertyTypes = [
         'error' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Error',
+            'type' => 'LT\eBaySDK\PostOrder\Types\Error',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'error'
         ],
         'errors' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'errors'
         ],
         'warnings' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ErrorDetailV3',
+            'type' => 'LT\eBaySDK\PostOrder\Types\ErrorDetailV3',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'warnings'

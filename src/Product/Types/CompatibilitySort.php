@@ -8,21 +8,21 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Product\Types;
+namespace LT\eBaySDK\Product\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Product\Types\SortOrder $sortOrder
- * @property \DTS\eBaySDK\Product\Enums\SortPriority $sortPriority
+ * @property \LT\eBaySDK\Product\Types\SortOrder $sortOrder
+ * @property \LT\eBaySDK\Product\Enums\SortPriority $sortPriority
  */
-class CompatibilitySort extends \DTS\eBaySDK\Types\BaseType
+class CompatibilitySort extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'sortOrder' => [
-            'type' => 'DTS\eBaySDK\Product\Types\SortOrder',
+            'type' => 'LT\eBaySDK\Product\Types\SortOrder',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'sortOrder'

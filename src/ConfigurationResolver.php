@@ -1,5 +1,5 @@
 <?php
-namespace DTS\eBaySDK;
+namespace LT\eBaySDK;
 
 /**
  * @internal Resolves and validates an associative array of configuration options.

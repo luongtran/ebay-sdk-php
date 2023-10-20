@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property integer $LinkID
  * @property integer $Order
- * @property \DTS\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType $LinkType
+ * @property \LT\eBaySDK\Trading\Enums\StoreCustomListingHeaderLinkCodeType $LinkType
  */
-class StoreCustomListingHeaderLinkType extends \DTS\eBaySDK\Types\BaseType
+class StoreCustomListingHeaderLinkType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

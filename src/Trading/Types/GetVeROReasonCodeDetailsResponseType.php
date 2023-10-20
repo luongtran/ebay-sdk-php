@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType $VeROReasonCodeDetails
+ * @property \LT\eBaySDK\Trading\Types\VeROReasonCodeDetailsType $VeROReasonCodeDetails
  */
-class GetVeROReasonCodeDetailsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetVeROReasonCodeDetailsResponseType extends \LT\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'VeROReasonCodeDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\VeROReasonCodeDetailsType',
+            'type' => 'LT\eBaySDK\Trading\Types\VeROReasonCodeDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VeROReasonCodeDetails'

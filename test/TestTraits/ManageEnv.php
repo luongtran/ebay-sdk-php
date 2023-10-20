@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Test\TestTraits;
+namespace LT\eBaySDK\Test\TestTraits;
 
-use DTS\eBaySDK\Credentials\CredentialsProvider;
+use LT\eBaySDK\Credentials\CredentialsProvider;
 
 trait ManageEnv
 {

@@ -8,34 +8,34 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Account\Types;
+namespace LT\eBaySDK\Account\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Account\Types\Amount $amount
- * @property \DTS\eBaySDK\Account\Types\TimeDuration $dueIn
- * @property \DTS\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
+ * @property \LT\eBaySDK\Account\Types\Amount $amount
+ * @property \LT\eBaySDK\Account\Types\TimeDuration $dueIn
+ * @property \LT\eBaySDK\Account\Types\PaymentMethod[] $paymentMethods
  */
-class Deposit extends \DTS\eBaySDK\Types\BaseType
+class Deposit extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'amount' => [
-            'type' => 'DTS\eBaySDK\Account\Types\Amount',
+            'type' => 'LT\eBaySDK\Account\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'amount'
         ],
         'dueIn' => [
-            'type' => 'DTS\eBaySDK\Account\Types\TimeDuration',
+            'type' => 'LT\eBaySDK\Account\Types\TimeDuration',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dueIn'
         ],
         'paymentMethods' => [
-            'type' => 'DTS\eBaySDK\Account\Types\PaymentMethod',
+            'type' => 'LT\eBaySDK\Account\Types\PaymentMethod',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'paymentMethods'

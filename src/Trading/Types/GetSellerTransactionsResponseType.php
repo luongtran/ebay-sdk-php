@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
+ * @property \LT\eBaySDK\Trading\Types\PaginationResultType $PaginationResult
  * @property boolean $HasMoreTransactions
  * @property integer $TransactionsPerPage
  * @property integer $PageNumber
  * @property integer $ReturnedTransactionCountActual
- * @property \DTS\eBaySDK\Trading\Types\UserType $Seller
- * @property \DTS\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
+ * @property \LT\eBaySDK\Trading\Types\UserType $Seller
+ * @property \LT\eBaySDK\Trading\Types\TransactionArrayType $TransactionArray
  * @property boolean $PayPalPreferred
  */
-class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class GetSellerTransactionsResponseType extends \LT\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'PaginationResult' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\PaginationResultType',
+            'type' => 'LT\eBaySDK\Trading\Types\PaginationResultType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'PaginationResult'
@@ -58,13 +58,13 @@ class GetSellerTransactionsResponseType extends \DTS\eBaySDK\Trading\Types\Abstr
             'elementName' => 'ReturnedTransactionCountActual'
         ],
         'Seller' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\UserType',
+            'type' => 'LT\eBaySDK\Trading\Types\UserType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Seller'
         ],
         'TransactionArray' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\TransactionArrayType',
+            'type' => 'LT\eBaySDK\Trading\Types\TransactionArrayType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'TransactionArray'

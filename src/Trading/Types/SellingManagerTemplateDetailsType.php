@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  * @property string $SaleTemplateID
  * @property string $SaleTemplateName
  * @property double $SuccessPercent
- * @property \DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
- * @property \DTS\eBaySDK\Trading\Types\ItemType $Template
+ * @property \LT\eBaySDK\Trading\Types\SellingManagerProductDetailsType $SellingManagerProductDetails
+ * @property \LT\eBaySDK\Trading\Types\ItemType $Template
  */
-class SellingManagerTemplateDetailsType extends \DTS\eBaySDK\Types\BaseType
+class SellingManagerTemplateDetailsType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -43,13 +43,13 @@ class SellingManagerTemplateDetailsType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'SuccessPercent'
         ],
         'SellingManagerProductDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
+            'type' => 'LT\eBaySDK\Trading\Types\SellingManagerProductDetailsType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'SellingManagerProductDetails'
         ],
         'Template' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'Template'

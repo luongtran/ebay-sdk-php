@@ -8,19 +8,19 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\MerchantData\Types;
+namespace LT\eBaySDK\MerchantData\Types;
 
 /**
  *
  * @property string $DiscountProfileID
  * @property string $DiscountProfileName
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $EachAdditionalAmount
- * @property \DTS\eBaySDK\MerchantData\Types\AmountType $EachAdditionalAmountOff
+ * @property \LT\eBaySDK\MerchantData\Types\AmountType $EachAdditionalAmount
+ * @property \LT\eBaySDK\MerchantData\Types\AmountType $EachAdditionalAmountOff
  * @property double $EachAdditionalPercentOff
- * @property \DTS\eBaySDK\MerchantData\Types\MeasureType $WeightOff
+ * @property \LT\eBaySDK\MerchantData\Types\MeasureType $WeightOff
  * @property string $MappedDiscountProfileID
  */
-class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
+class DiscountProfileType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -39,13 +39,13 @@ class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'DiscountProfileName'
         ],
         'EachAdditionalAmount' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmount'
         ],
         'EachAdditionalAmountOff' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\AmountType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\AmountType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'EachAdditionalAmountOff'
@@ -57,7 +57,7 @@ class DiscountProfileType extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'EachAdditionalPercentOff'
         ],
         'WeightOff' => [
-            'type' => 'DTS\eBaySDK\MerchantData\Types\MeasureType',
+            'type' => 'LT\eBaySDK\MerchantData\Types\MeasureType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'WeightOff'

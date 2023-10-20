@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Catalog\Types;
+namespace LT\eBaySDK\Test\Catalog\Types;
 
-use DTS\eBaySDK\Catalog\Types\ProductSearchResponse;
+use LT\eBaySDK\Catalog\Types\ProductSearchResponse;
 
 class ProductSearchResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductSearchResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Catalog\Types\ProductSearchResponse', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Catalog\Types\ProductSearchResponse', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

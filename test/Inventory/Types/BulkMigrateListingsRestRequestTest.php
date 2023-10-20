@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Inventory\Types;
+namespace LT\eBaySDK\Test\Inventory\Types;
 
-use DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestRequest;
+use LT\eBaySDK\Inventory\Types\BulkMigrateListingsRestRequest;
 
 class BulkMigrateListingsRestRequestTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class BulkMigrateListingsRestRequestTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkMigrateListingsRestRequest', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Inventory\Types\BulkMigrateListingsRestRequest', $this->obj);
     }
 
     public function testExtendsBulkMigrateListing()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Inventory\Types\BulkMigrateListing', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Inventory\Types\BulkMigrateListing', $this->obj);
     }
 }

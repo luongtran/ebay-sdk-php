@@ -1,7 +1,7 @@
 <?php
-namespace DTS\eBaySDK\Types\Test;
+namespace LT\eBaySDK\Types\Test;
 
-use DTS\eBaySDK as Sdk;
+use LT\eBaySDK as Sdk;
 /**
  * These tests are to cover where we have corrected
  * the property names of various classes.
@@ -21,7 +21,7 @@ class PropertyFixesTest extends \PHPUnit_Framework_TestCase
 
         $this->assertEquals(null, $obj->cancelState);
         $this->assertEquals(null, $obj->cancelStatus);
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\RepeatableType', $obj->lineItems);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\RepeatableType', $obj->lineItems);
     }
 
     /**
@@ -68,7 +68,7 @@ class PropertyFixesTest extends \PHPUnit_Framework_TestCase
         $obj = new Sdk\Fulfillment\Types\DeliveryCost();
 
         $obj->discountAmount = new Sdk\Fulfillment\Types\Amount();
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Amount', $obj->discountAmount);
+        $this->assertInstanceOf('\LT\eBaySDK\Fulfillment\Types\Amount', $obj->discountAmount);
     }
 
     /**
@@ -93,12 +93,12 @@ class PropertyFixesTest extends \PHPUnit_Framework_TestCase
         $obj = new Sdk\Fulfillment\Types\PricingSummary();
 
         $obj->priceDiscount = new Sdk\Fulfillment\Types\Amount();
-        $this->assertInstanceOf('\DTS\eBaySDK\Fulfillment\Types\Amount', $obj->priceDiscount);
+        $this->assertInstanceOf('\LT\eBaySDK\Fulfillment\Types\Amount', $obj->priceDiscount);
     }
 
     public function testPriceDiscountSubtotalDoesNotExist()
     {
-        $this->setExpectedException('\DTS\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property');
+        $this->setExpectedException('\LT\eBaySDK\Exceptions\UnknownPropertyException', 'Unknown property');
 
         $obj = new Sdk\Fulfillment\Types\PricingSummary();
 

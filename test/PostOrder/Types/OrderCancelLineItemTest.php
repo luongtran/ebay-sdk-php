@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\PostOrder\Types;
+namespace LT\eBaySDK\Test\PostOrder\Types;
 
-use DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem;
+use LT\eBaySDK\PostOrder\Types\OrderCancelLineItem;
 
 class OrderCancelLineItemTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class OrderCancelLineItemTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\PostOrder\Types\OrderCancelLineItem', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\PostOrder\Types\OrderCancelLineItem', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

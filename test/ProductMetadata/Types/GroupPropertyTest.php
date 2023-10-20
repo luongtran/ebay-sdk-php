@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace LT\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\GroupProperty;
+use LT\eBaySDK\ProductMetadata\Types\GroupProperty;
 
 class GroupPropertyTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class GroupPropertyTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\GroupProperty', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\ProductMetadata\Types\GroupProperty', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

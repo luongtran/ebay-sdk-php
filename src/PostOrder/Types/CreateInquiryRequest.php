@@ -8,17 +8,17 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
  * @property integer $claimQuantity
- * @property \DTS\eBaySDK\PostOrder\Types\Text $comments
+ * @property \LT\eBaySDK\PostOrder\Types\Text $comments
  * @property string $desiredOutcome
  * @property string $itemId
  * @property string $transactionId
  */
-class CreateInquiryRequest extends \DTS\eBaySDK\Types\BaseType
+class CreateInquiryRequest extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
@@ -31,7 +31,7 @@ class CreateInquiryRequest extends \DTS\eBaySDK\Types\BaseType
             'elementName' => 'claimQuantity'
         ],
         'comments' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Text',
+            'type' => 'LT\eBaySDK\PostOrder\Types\Text',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'comments'

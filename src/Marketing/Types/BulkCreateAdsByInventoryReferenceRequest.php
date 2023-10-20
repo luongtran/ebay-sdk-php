@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Marketing\Types;
+namespace LT\eBaySDK\Marketing\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest[] $requests
+ * @property \LT\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest[] $requests
  */
-class BulkCreateAdsByInventoryReferenceRequest extends \DTS\eBaySDK\Types\BaseType
+class BulkCreateAdsByInventoryReferenceRequest extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'requests' => [
-            'type' => 'DTS\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest',
+            'type' => 'LT\eBaySDK\Marketing\Types\CreateAdsByInventoryReferenceRequest',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'requests'

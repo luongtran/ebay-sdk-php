@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
+namespace LT\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile[] $ReturnPolicyProfile
+ * @property \LT\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile[] $ReturnPolicyProfile
  */
-class ReturnPolicyProfileList extends \DTS\eBaySDK\Types\BaseType
+class ReturnPolicyProfileList extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ReturnPolicyProfile' => [
-            'type' => 'DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile',
+            'type' => 'LT\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ReturnPolicyProfile'

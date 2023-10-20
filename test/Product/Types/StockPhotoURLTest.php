@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Product\Types;
+namespace LT\eBaySDK\Test\Product\Types;
 
-use DTS\eBaySDK\Product\Types\StockPhotoURL;
+use LT\eBaySDK\Product\Types\StockPhotoURL;
 
 class StockPhotoURLTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class StockPhotoURLTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Product\Types\StockPhotoURL', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Product\Types\StockPhotoURL', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

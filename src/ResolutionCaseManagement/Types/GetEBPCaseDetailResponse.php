@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\ResolutionCaseManagement\Types;
+namespace LT\eBaySDK\ResolutionCaseManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType $caseSummary
- * @property \DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDetailType $caseDetail
+ * @property \LT\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType $caseSummary
+ * @property \LT\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDetailType $caseDetail
  */
-class GetEBPCaseDetailResponse extends \DTS\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
+class GetEBPCaseDetailResponse extends \LT\eBaySDK\ResolutionCaseManagement\Types\BaseResponse
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'caseSummary' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType',
+            'type' => 'LT\eBaySDK\ResolutionCaseManagement\Types\CaseSummaryType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseSummary'
         ],
         'caseDetail' => [
-            'type' => 'DTS\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDetailType',
+            'type' => 'LT\eBaySDK\ResolutionCaseManagement\Types\EBPCaseDetailType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'caseDetail'

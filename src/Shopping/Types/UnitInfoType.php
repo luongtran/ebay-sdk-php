@@ -8,14 +8,14 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Shopping\Types;
+namespace LT\eBaySDK\Shopping\Types;
 
 /**
  *
  * @property string $UnitType
  * @property double $UnitQuantity
  */
-class UnitInfoType extends \DTS\eBaySDK\Types\BaseType
+class UnitInfoType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

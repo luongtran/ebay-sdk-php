@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ProductSuggestionType[] $ProductSuggestion
+ * @property \LT\eBaySDK\Trading\Types\ProductSuggestionType[] $ProductSuggestion
  */
-class ProductSuggestionsType extends \DTS\eBaySDK\Types\BaseType
+class ProductSuggestionsType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ProductSuggestion' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ProductSuggestionType',
+            'type' => 'LT\eBaySDK\Trading\Types\ProductSuggestionType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ProductSuggestion'

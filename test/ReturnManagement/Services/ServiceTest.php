@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\ReturnManagement\Services;
+namespace LT\eBaySDK\Test\ReturnManagement\Services;
 
-use DTS\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService;
-use DTS\eBaySDK\ReturnManagement\Services\ReturnManagementService;
-use DTS\eBaySDK\Test\ReturnManagement\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use LT\eBaySDK\ReturnManagement\Services\ReturnManagementBaseService;
+use LT\eBaySDK\ReturnManagement\Services\ReturnManagementService;
+use LT\eBaySDK\Test\ReturnManagement\Mocks\Service;
+use LT\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

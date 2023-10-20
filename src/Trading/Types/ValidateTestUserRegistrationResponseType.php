@@ -8,12 +8,12 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
  */
-class ValidateTestUserRegistrationResponseType extends \DTS\eBaySDK\Trading\Types\AbstractResponseType
+class ValidateTestUserRegistrationResponseType extends \LT\eBaySDK\Trading\Types\AbstractResponseType
 {
     /**
      * @var array Properties belonging to objects of this class.

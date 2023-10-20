@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\Shopping\Types;
+namespace LT\eBaySDK\Test\Shopping\Types;
 
-use DTS\eBaySDK\Shopping\Types\ProductIDType;
+use LT\eBaySDK\Shopping\Types\ProductIDType;
 
 class ProductIDTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class ProductIDTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Shopping\Types\ProductIDType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Shopping\Types\ProductIDType', $this->obj);
     }
 
     public function testExtendsStringType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\StringType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\StringType', $this->obj);
     }
 }

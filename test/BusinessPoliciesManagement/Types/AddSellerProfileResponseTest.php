@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\BusinessPoliciesManagement\Types;
+namespace LT\eBaySDK\Test\BusinessPoliciesManagement\Types;
 
-use DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse;
+use LT\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse;
 
 class AddSellerProfileResponseTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class AddSellerProfileResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\BusinessPoliciesManagement\Types\AddSellerProfileResponse', $this->obj);
     }
 
     public function testExtendsBaseResponse()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse', $this->obj);
     }
 }

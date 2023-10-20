@@ -8,30 +8,30 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ListDataType[] $dataList
- * @property \DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType $dataRange
+ * @property \LT\eBaySDK\PostOrder\Types\ListDataType[] $dataList
+ * @property \LT\eBaySDK\PostOrder\Types\ConditionDataRangeType $dataRange
  * @property boolean $isEbayPlus
  * @property boolean $storeCategory
  * @property integer $storeId
  */
-class RuleConditionInputType extends \DTS\eBaySDK\Types\BaseType
+class RuleConditionInputType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'dataList' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ListDataType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\ListDataType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'dataList'
         ],
         'dataRange' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ConditionDataRangeType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\ConditionDataRangeType',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'dataRange'

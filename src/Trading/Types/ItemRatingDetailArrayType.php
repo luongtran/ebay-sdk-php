@@ -8,20 +8,20 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Trading\Types;
+namespace LT\eBaySDK\Trading\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\Trading\Types\ItemRatingDetailsType[] $ItemRatingDetails
+ * @property \LT\eBaySDK\Trading\Types\ItemRatingDetailsType[] $ItemRatingDetails
  */
-class ItemRatingDetailArrayType extends \DTS\eBaySDK\Types\BaseType
+class ItemRatingDetailArrayType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'ItemRatingDetails' => [
-            'type' => 'DTS\eBaySDK\Trading\Types\ItemRatingDetailsType',
+            'type' => 'LT\eBaySDK\Trading\Types\ItemRatingDetailsType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'ItemRatingDetails'

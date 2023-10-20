@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\BulkDataExchange\Services;
+namespace LT\eBaySDK\Test\BulkDataExchange\Services;
 
-use DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService;
-use DTS\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService;
-use DTS\eBaySDK\Test\BulkDataExchange\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use LT\eBaySDK\BulkDataExchange\Services\BulkDataExchangeBaseService;
+use LT\eBaySDK\BulkDataExchange\Services\BulkDataExchangeService;
+use LT\eBaySDK\Test\BulkDataExchange\Mocks\Service;
+use LT\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {

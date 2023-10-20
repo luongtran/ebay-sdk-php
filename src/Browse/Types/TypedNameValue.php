@@ -8,15 +8,15 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Browse\Types;
+namespace LT\eBaySDK\Browse\Types;
 
 /**
  *
  * @property string $name
- * @property \DTS\eBaySDK\Browse\Enums\ValueTypeEnum $type
+ * @property \LT\eBaySDK\Browse\Enums\ValueTypeEnum $type
  * @property string $value
  */
-class TypedNameValue extends \DTS\eBaySDK\Types\BaseType
+class TypedNameValue extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.

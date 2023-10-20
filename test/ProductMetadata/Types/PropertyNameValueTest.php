@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\ProductMetadata\Types;
+namespace LT\eBaySDK\Test\ProductMetadata\Types;
 
-use DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue;
+use LT\eBaySDK\ProductMetadata\Types\PropertyNameValue;
 
 class PropertyNameValueTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,11 +23,11 @@ class PropertyNameValueTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\ProductMetadata\Types\PropertyNameValue', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\ProductMetadata\Types\PropertyNameValue', $this->obj);
     }
 
     public function testExtendsBaseType()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\Types\BaseType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\Types\BaseType', $this->obj);
     }
 }

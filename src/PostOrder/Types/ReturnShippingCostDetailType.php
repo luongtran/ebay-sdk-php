@@ -8,27 +8,27 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\PostOrder\Types;
+namespace LT\eBaySDK\PostOrder\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\PostOrder\Types\ItemizedReturnShippingCostType[] $itemizedReturnShippingCost
- * @property \DTS\eBaySDK\PostOrder\Types\Amount $totalAmount
+ * @property \LT\eBaySDK\PostOrder\Types\ItemizedReturnShippingCostType[] $itemizedReturnShippingCost
+ * @property \LT\eBaySDK\PostOrder\Types\Amount $totalAmount
  */
-class ReturnShippingCostDetailType extends \DTS\eBaySDK\Types\BaseType
+class ReturnShippingCostDetailType extends \LT\eBaySDK\Types\BaseType
 {
     /**
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = [
         'itemizedReturnShippingCost' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\ItemizedReturnShippingCostType',
+            'type' => 'LT\eBaySDK\PostOrder\Types\ItemizedReturnShippingCostType',
             'repeatable' => true,
             'attribute' => false,
             'elementName' => 'itemizedReturnShippingCost'
         ],
         'totalAmount' => [
-            'type' => 'DTS\eBaySDK\PostOrder\Types\Amount',
+            'type' => 'LT\eBaySDK\PostOrder\Types\Amount',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'totalAmount'

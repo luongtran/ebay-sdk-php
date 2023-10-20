@@ -8,9 +8,9 @@
  * is updated. You've been warned!
  */
 
-namespace DTS\eBaySDK\Test\MerchantData\Enums;
+namespace LT\eBaySDK\Test\MerchantData\Enums;
 
-use DTS\eBaySDK\MerchantData\Enums\PromotionItemPriceTypeCodeType;
+use LT\eBaySDK\MerchantData\Enums\PromotionItemPriceTypeCodeType;
 
 class PromotionItemPriceTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -23,6 +23,6 @@ class PromotionItemPriceTypeCodeTypeTest extends \PHPUnit_Framework_TestCase
 
     public function testCanBeCreated()
     {
-        $this->assertInstanceOf('\DTS\eBaySDK\MerchantData\Enums\PromotionItemPriceTypeCodeType', $this->obj);
+        $this->assertInstanceOf('\LT\eBaySDK\MerchantData\Enums\PromotionItemPriceTypeCodeType', $this->obj);
     }
 }

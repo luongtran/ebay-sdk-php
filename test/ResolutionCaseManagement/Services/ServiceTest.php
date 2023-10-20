@@ -1,10 +1,10 @@
 <?php
-namespace DTS\eBaySDK\Test\ResolutionCaseManagement\Services;
+namespace LT\eBaySDK\Test\ResolutionCaseManagement\Services;
 
-use DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService;
-use DTS\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService;
-use DTS\eBaySDK\Test\ResolutionCaseManagement\Mocks\Service;
-use DTS\eBaySDK\Test\Mocks\HttpHandler;
+use LT\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementBaseService;
+use LT\eBaySDK\ResolutionCaseManagement\Services\ResolutionCaseManagementService;
+use LT\eBaySDK\Test\ResolutionCaseManagement\Mocks\Service;
+use LT\eBaySDK\Test\Mocks\HttpHandler;
 
 class ServiceTest extends \PHPUnit_Framework_TestCase
 {
