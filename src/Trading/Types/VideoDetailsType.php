@@ -27,7 +27,7 @@ class VideoDetailsType extends \LT\eBaySDK\Types\BaseType
      */
     private static $propertyTypes = [
         'VideoID' => [
-            'VideoURL' => 'string',
+            'type' => 'string',
             'repeatable' => false,
             'attribute' => false,
             'elementName' => 'VideoID'
